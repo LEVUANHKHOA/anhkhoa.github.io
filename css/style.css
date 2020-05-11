@@ -1,0 +1,4874 @@
+body {
+  text-align: center;
+  background: #020407 !important; }
+
+a {
+  text-decoration: none !important; }
+
+ul {
+  padding-left: 0; }
+
+ul,
+li {
+  list-style-type: none; }
+
+.reset-position {
+  position: initial !important; }
+
+.lbc-clor-red {
+  color: #f11107; }
+
+.lbc-clor-gold {
+  color: #fffcc0; }
+
+.lbc-clor-blue {
+  color: #5fd1ab; }
+
+.lbc-bg-gold {
+  background: #fffcc0; }
+
+.lbc-bg-red {
+  background: #ff0000; }
+
+.lbc-bg-violet {
+  background: #6d1eac; }
+
+.lbc-bg-yellow {
+  background: #d6d0ac; }
+
+.lbc-bg-blue {
+  background: #00aeef; }
+
+.lbc-bg-smallyellow {
+  background: #f8eed8; }
+
+.lbc-bg-smallgreen {
+  background: #a0ac06; }
+
+.lbc-bg-chocolate {
+  background: #ac8315; }
+
+.lbc-bg-dark {
+  background: #000 !important; }
+
+.lbc-color-yellow {
+  color: #f5e091; }
+
+.hvr-underline-from-left:before {
+  background: #e9e101 !important; }
+
+.mb-40 {
+  margin-bottom: 40px; }
+
+.font-50 {
+  font-size: 50px; }
+
+.slick-slide,
+.slick-slide * {
+  outline: none !important; }
+
+.swiper-container {
+  width: 100%;
+  height: 100%; }
+  @media (max-width: 380px) {
+    .swiper-container {
+      padding-bottom: 5px !important; } }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 60%; }
+  .swiper-slide img {
+    border-radius: 5px; }
+  @media (max-width: 768px) {
+    .swiper-slide {
+      padding: 35px; } }
+  @media (max-width: 560px) {
+    .swiper-slide {
+      padding: 20px; } }
+  @media (max-width: 375px) {
+    .swiper-slide {
+      padding: 15px; } }
+
+.swiper-slide:nth-child(2n) {
+  width: 40%; }
+
+.swiper-slide:nth-child(3n) {
+  width: 20%; }
+
+.swiper-pagination-bullets {
+  bottom: 0 !important;
+  align-items: center;
+  display: flex;
+  justify-content: center; }
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 25px;
+  height: 25px;
+  background: #b7b7b7; }
+  @media (max-width: 560px) {
+    .swiper-pagination .swiper-pagination-bullet {
+      width: 15px;
+      height: 15px; } }
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: #f5e091; }
+
+.casino-container {
+  font-family: 'Roboto', sans-serif !important;
+  max-width: 1080px;
+  background: url(../img/casino-mobile-bg.png) top center no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 250px; }
+  @media (max-width: 768px) {
+    .casino-container {
+      padding-bottom: 200px; } }
+  .casino-container .header {
+    background: url(../img/header-bg.png) no-repeat center center;
+    background-size: cover;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 45px; }
+    @media (max-width: 812px) {
+      .casino-container .header {
+        padding: 0 30px;
+        height: 130px; } }
+    @media (max-width: 768px) {
+      .casino-container .header {
+        height: 120px; } }
+    @media (max-width: 414px) {
+      .casino-container .header {
+        height: 65px;
+        padding: 0 20px; } }
+    @media (max-width: 411px) {
+      .casino-container .header {
+        height: 64px; } }
+    @media (max-width: 375px) {
+      .casino-container .header {
+        height: 59px; } }
+    @media (max-width: 360px) {
+      .casino-container .header {
+        height: 56px; } }
+    @media (max-width: 320px) {
+      .casino-container .header {
+        height: 50px; } }
+  .casino-container .logo img {
+    width: auto; }
+    @media (max-width: 1024px) {
+      .casino-container .logo img {
+        width: 326px;
+        height: 89px; } }
+    @media (max-width: 823px) {
+      .casino-container .logo img {
+        width: 263px;
+        height: 72px; } }
+    @media (max-width: 812px) {
+      .casino-container .logo img {
+        width: 259px;
+        height: 71px; } }
+    @media (max-width: 768px) {
+      .casino-container .logo img {
+        width: 245px;
+        height: 67px; } }
+    @media (max-width: 736px) {
+      .casino-container .logo img {
+        width: 234px;
+        height: 65px; } }
+    @media (max-width: 568px) {
+      .casino-container .logo img {
+        width: 182px;
+        height: 50px; } }
+    @media (max-width: 414px) {
+      .casino-container .logo img {
+        width: 132px;
+        height: 37px; } }
+    @media (max-width: 375px) {
+      .casino-container .logo img {
+        width: 120px;
+        height: 33px; } }
+    @media (max-width: 320px) {
+      .casino-container .logo img {
+        width: 103px;
+        height: 28px; } }
+  .casino-container .login-container {
+    display: flex; }
+    @media (max-width: 768px) {
+      .casino-container .login-container {
+        text-align: center; } }
+    .casino-container .login-container .hbtn {
+      position: relative;
+      box-sizing: border-box;
+      display: inline-block;
+      overflow: hidden;
+      width: 234px;
+      height: 90px;
+      line-height: 90px;
+      margin-right: 20px;
+      text-align: center;
+      border: 1.15px solid white;
+      text-decoration: none;
+      color: white;
+      white-space: nowrap;
+      z-index: 0;
+      font-size: 45px;
+      border-radius: 25px; }
+      @media (max-width: 1024px) {
+        .casino-container .login-container .hbtn {
+          width: 221px;
+          height: 97px; } }
+      @media (max-width: 812px) {
+        .casino-container .login-container .hbtn {
+          width: 175px;
+          height: 69px;
+          font-size: 22px;
+          border-radius: 15px;
+          line-height: 60px; } }
+      @media (max-width: 823px) {
+        .casino-container .login-container .hbtn {
+          width: 178px;
+          font-size: 30px;
+          height: 70px;
+          line-height: 70px; } }
+      @media (max-width: 768px) {
+        .casino-container .login-container .hbtn {
+          width: 166px;
+          font-size: 30px;
+          height: 65px;
+          line-height: 65px; } }
+      @media (max-width: 680px) {
+        .casino-container .login-container .hbtn {
+          width: 140px;
+          font-size: 22px; } }
+      @media (max-width: 667px) {
+        .casino-container .login-container .hbtn {
+          width: 144px;
+          height: 56px;
+          font-size: 20px;
+          line-height: 56px; } }
+      @media (max-width: 600px) {
+        .casino-container .login-container .hbtn {
+          border-radius: 15px; } }
+      @media (max-width: 568px) {
+        .casino-container .login-container .hbtn {
+          width: 123px;
+          font-size: 20px;
+          line-height: 48px;
+          height: 48px;
+          border-radius: 8px; } }
+      @media (max-width: 560px) {
+        .casino-container .login-container .hbtn {
+          width: 120px;
+          font-size: 22px;
+          height: 40px;
+          border-radius: 8px;
+          line-height: 40px; } }
+      @media (max-width: 460px) {
+        .casino-container .login-container .hbtn {
+          width: 90px;
+          font-size: 18px;
+          line-height: 40px; } }
+      @media (max-width: 420px) {
+        .casino-container .login-container .hbtn {
+          line-height: 40px; } }
+      @media (max-width: 414px) {
+        .casino-container .login-container .hbtn {
+          width: 89px;
+          height: 35px;
+          line-height: 35px;
+          margin-right: 5px; } }
+      @media (max-width: 411px) {
+        .casino-container .login-container .hbtn {
+          width: 89px;
+          height: 35px;
+          margin-right: 5px;
+          line-height: 35px; } }
+      @media (max-width: 390px) {
+        .casino-container .login-container .hbtn {
+          width: 80px;
+          font-size: 16px;
+          line-height: 30px;
+          height: 30px; } }
+      @media (max-width: 360px) {
+        .casino-container .login-container .hbtn {
+          width: 78px;
+          font-size: 16px;
+          line-height: 30px;
+          height: 30px;
+          margin-right: 5px; } }
+      @media (max-width: 320px) {
+        .casino-container .login-container .hbtn {
+          width: 69px;
+          font-size: 12px;
+          line-height: 27px;
+          height: 27px;
+          margin-right: 5px; } }
+      .casino-container .login-container .hbtn .hbtn i {
+        padding-right: 8px; }
+      .casino-container .login-container .hbtn.hb-fill-middle2-bg::before {
+        position: absolute;
+        content: "";
+        background: white;
+        transition-duration: 0.3s;
+        z-index: -1;
+        top: 0px;
+        right: 0px;
+        bottom: auto;
+        left: auto;
+        width: 0px;
+        height: 100%;
+        opacity: 1; }
+      .casino-container .login-container .hbtn.hb-fill-middle2-bg:hover::before {
+        width: 50%;
+        height: 100%;
+        opacity: 1; }
+      .casino-container .login-container .hbtn.hb-fill-middle2-bg {
+        background: transparent;
+        color: white;
+        transition: all 0.3s ease 0s; }
+      .casino-container .login-container .hbtn.hb-fill-middle2-bg:hover {
+        color: black;
+        background: white;
+        transition: all 0.3s ease 0s; }
+      .casino-container .login-container .hbtn.hb-fill-middle2-bg::after {
+        position: absolute;
+        content: "";
+        background: white;
+        transition-duration: 0.3s;
+        z-index: -1;
+        top: 0px;
+        right: auto;
+        bottom: auto;
+        left: 0px;
+        width: 0px;
+        height: 100%;
+        opacity: 1; }
+      .casino-container .login-container .hbtn.hb-fill-middle2-bg:hover::after {
+        width: 50%; }
+  .casino-container .product-content {
+    background: transparent;
+    overflow: hidden;
+    margin: 70px 0 90px 0; }
+    @media (max-width: 768px) {
+      .casino-container .product-content {
+        margin-top: 50px; } }
+    @media (max-width: 812px) {
+      .casino-container .product-content {
+        margin: 50px 0 70px 0; } }
+    @media (max-width: 736px) {
+      .casino-container .product-content {
+        margin: 45px 0 65px 0; } }
+    @media (max-width: 414px) {
+      .casino-container .product-content {
+        margin: 30px 0; } }
+    .casino-container .product-content h3 {
+      text-align: center;
+      font-weight: 400;
+      font-size: 35px;
+      color: #fff;
+      margin-bottom: 70px; }
+      @media (max-width: 823px) {
+        .casino-container .product-content h3 {
+          font-size: 25px;
+          margin-bottom: 50px; } }
+      @media (max-width: 768px) {
+        .casino-container .product-content h3 {
+          margin-bottom: 50px;
+          font-size: 25px; } }
+      @media (max-width: 568px) {
+        .casino-container .product-content h3 {
+          margin-bottom: 18px; } }
+      @media (max-width: 414px) {
+        .casino-container .product-content h3 {
+          margin-bottom: 25px; } }
+      @media (max-width: 375px) {
+        .casino-container .product-content h3 {
+          margin-bottom: 30px;
+          font-size: 16px; } }
+    .casino-container .product-content .product-top {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 45px; }
+      @media (max-width: 768px) {
+        .casino-container .product-content .product-top {
+          padding: 0 35px; } }
+      .casino-container .product-content .product-top li {
+        padding: 0;
+        position: relative; }
+        .casino-container .product-content .product-top li img {
+          width: 100%; }
+          @media (max-width: 823px) {
+            .casino-container .product-content .product-top li img {
+              width: 171px;
+              height: 171px; } }
+          @media (max-width: 812px) {
+            .casino-container .product-content .product-top li img {
+              width: 168px;
+              height: 169px; } }
+          @media (max-width: 768px) {
+            .casino-container .product-content .product-top li img {
+              width: 160px;
+              height: 160px; } }
+          @media (max-width: 568px) {
+            .casino-container .product-content .product-top li img {
+              width: 118px;
+              height: 118px; } }
+          @media (max-width: 480px) {
+            .casino-container .product-content .product-top li img {
+              width: 100px;
+              height: 100px; } }
+          @media (max-width: 414px) {
+            .casino-container .product-content .product-top li img {
+              width: 86px;
+              height: 86px; } }
+          @media (max-width: 411px) {
+            .casino-container .product-content .product-top li img {
+              width: 86px;
+              height: 86px; } }
+          @media (max-width: 375px) {
+            .casino-container .product-content .product-top li img {
+              width: 78px;
+              height: 78px; } }
+          @media (max-width: 360px) {
+            .casino-container .product-content .product-top li img {
+              width: 75px;
+              height: 75px; } }
+          @media (max-width: 360px) {
+            .casino-container .product-content .product-top li img {
+              width: 67px;
+              height: 67px; } }
+        .casino-container .product-content .product-top li p {
+          width: 100%;
+          position: absolute;
+          bottom: 8%;
+          left: 0;
+          font-size: 30px;
+          color: #fff; }
+          @media (max-width: 823px) {
+            .casino-container .product-content .product-top li p {
+              font-size: 20px; } }
+          @media (max-width: 812px) {
+            .casino-container .product-content .product-top li p {
+              font-size: 20px; } }
+          @media (max-width: 768px) {
+            .casino-container .product-content .product-top li p {
+              bottom: 5%;
+              font-size: 20px; } }
+          @media (max-width: 600px) {
+            .casino-container .product-content .product-top li p {
+              bottom: 5%;
+              font-size: 20px; } }
+          @media (max-width: 568px) {
+            .casino-container .product-content .product-top li p {
+              bottom: 4%;
+              font-size: 15px; } }
+          @media (max-width: 480px) {
+            .casino-container .product-content .product-top li p {
+              bottom: -5%;
+              font-size: 12px; } }
+          @media (max-width: 375px) {
+            .casino-container .product-content .product-top li p {
+              bottom: -5px;
+              font-size: 10px; } }
+        .casino-container .product-content .product-top li:hover p {
+          color: #f0e6aa; }
+  .casino-container .product-game {
+    overflow: hidden; }
+    .casino-container .product-game ul {
+      padding: 0 45px; }
+      @media (max-width: 768px) {
+        .casino-container .product-game ul {
+          padding: 0 35px; } }
+      @media (max-width: 480px) {
+        .casino-container .product-game ul {
+          padding: 0 20px; } }
+      @media (max-width: 375px) {
+        .casino-container .product-game ul {
+          padding: 0 17px; } }
+      .casino-container .product-game ul li {
+        margin-bottom: 40px;
+        /*@media (max-width: 812px) {
+            margin-bottom: 30px;
+        }
+        @media (max-width: 768px) {
+            padding: 0 10px;
+        }
+        @media (max-width: 480px) {
+            margin-bottom: 15px;
+        }
+        @media (max-width: 360px) {
+            margin-bottom: 10px;
+        }*/ }
+        .casino-container .product-game ul li:hover img {
+          border: 1px solid #565551;
+          background: #f3102b; }
+        .casino-container .product-game ul li:hover p {
+          color: #f0e6aa; }
+        .casino-container .product-game ul li img {
+          border: 1px solid rgba(245, 224, 145, 0.1);
+          border-radius: 25px; }
+          @media (max-width: 1024px) {
+            .casino-container .product-game ul li img {
+              width: 446px;
+              height: 195px; } }
+          @media (max-width: 980px) {
+            .casino-container .product-game ul li img {
+              width: 427px;
+              height: 186px; } }
+          @media (max-width: 900px) {
+            .casino-container .product-game ul li img {
+              width: 392px;
+              height: 171px; } }
+          @media (max-width: 823px) {
+            .casino-container .product-game ul li img {
+              width: 359px;
+              height: 156px; } }
+          @media (max-width: 812px) {
+            .casino-container .product-game ul li img {
+              width: 354px;
+              height: 154px; } }
+          @media (max-width: 768px) {
+            .casino-container .product-game ul li img {
+              width: 335px;
+              height: 145px; } }
+          @media (max-width: 700px) {
+            .casino-container .product-game ul li img {
+              width: 305px;
+              height: 133px; } }
+          @media (max-width: 667px) {
+            .casino-container .product-game ul li img {
+              width: 291px;
+              height: 137px;
+              border-radius: 15px; } }
+          @media (max-width: 640px) {
+            .casino-container .product-game ul li img {
+              width: 261px;
+              height: 144px; } }
+          @media (max-width: 600px) {
+            .casino-container .product-game ul li img {
+              width: 261px;
+              height: 114px; } }
+          @media (max-width: 568px) {
+            .casino-container .product-game ul li img {
+              width: 247px;
+              height: 108px; } }
+          @media (max-width: 550px) {
+            .casino-container .product-game ul li img {
+              width: 240px;
+              height: 104px; } }
+          @media (max-width: 510px) {
+            .casino-container .product-game ul li img {
+              width: 222px;
+              height: 97px; } }
+          @media (max-width: 480px) {
+            .casino-container .product-game ul li img {
+              width: 209px;
+              height: 91px; } }
+          @media (max-width: 450px) {
+            .casino-container .product-game ul li img {
+              width: 196px;
+              height: 85px; } }
+          @media (max-width: 414px) {
+            .casino-container .product-game ul li img {
+              width: 180px;
+              height: 78px; } }
+          @media (max-width: 411px) {
+            .casino-container .product-game ul li img {
+              width: 179px;
+              height: 78px; } }
+          @media (max-width: 375px) {
+            .casino-container .product-game ul li img {
+              width: 163px;
+              height: 71px; } }
+          @media (max-width: 360px) {
+            .casino-container .product-game ul li img {
+              width: 152px;
+              height: 66px; } }
+          @media (max-width: 330px) {
+            .casino-container .product-game ul li img {
+              width: 144px;
+              height: 62px; } }
+          @media (max-width: 320px) {
+            .casino-container .product-game ul li img {
+              width: 139px;
+              height: 61px; } }
+        .casino-container .product-game ul li .product-game-note {
+          position: absolute;
+          top: 20%;
+          right: 10%;
+          color: #fff;
+          text-align: center;
+          font-size: 35px; }
+          @media (max-width: 823px) {
+            .casino-container .product-game ul li .product-game-note {
+              font-size: 25px; } }
+          @media (max-width: 812px) {
+            .casino-container .product-game ul li .product-game-note {
+              font-size: 25px; } }
+          @media (max-width: 768px) {
+            .casino-container .product-game ul li .product-game-note {
+              font-size: 25px; } }
+          @media (max-width: 600px) {
+            .casino-container .product-game ul li .product-game-note {
+              font-size: 18px; } }
+          @media (max-width: 480px) {
+            .casino-container .product-game ul li .product-game-note {
+              font-size: 14px; } }
+          @media (max-width: 400px) {
+            .casino-container .product-game ul li .product-game-note {
+              font-size: 14px; } }
+          @media (max-width: 380px) {
+            .casino-container .product-game ul li .product-game-note {
+              font-size: 12px; } }
+          @media (max-width: 320px) {
+            .casino-container .product-game ul li .product-game-note {
+              font-size: 10px; } }
+        @media (max-width: 768px) {
+          .casino-container .product-game ul li {
+            margin-bottom: 30px; } }
+        @media (max-width: 480px) {
+          .casino-container .product-game ul li {
+            margin-bottom: 15px; } }
+        @media (max-width: 375px) {
+          .casino-container .product-game ul li {
+            margin-bottom: 13px; } }
+        .casino-container .product-game ul li:before {
+          content: "\f3a5";
+          font-family: "Font Awesome 5 Free";
+          font-size: 20px;
+          position: absolute;
+          right: 30px;
+          bottom: 10px;
+          color: #f5e091;
+          display: inline-block;
+          animation: rotation 2s infinite linear; }
+@keyframes rotation {
+  50% {
+    transform: rotateY(360deg); }
+  100% {
+    transform: rotateY(360deg); } }
+          @media (max-width: 768px) {
+            .casino-container .product-game ul li:before {
+              font-size: 10px; } }
+          @media (max-width: 480px) {
+            .casino-container .product-game ul li:before {
+              font-size: 5px;
+              right: 20px;
+              bottom: 5px; } }
+  .casino-container footer {
+    background: url(../img/footer-bg.png) no-repeat center center;
+    background-size: cover;
+    border-top: 1px solid #434343;
+    /*position: relative;*/
+    /*position: sticky;*/
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*overflow: hidden;*/
+    /*@media (max-width: 667px) {
+        position:inherit;
+    }
+    @media (max-width: 560px) {
+        position:sticky;
+    }*/
+    /*@media (max-width: 360px) {
+        position: relative;
+    }*/ }
+    @media (max-width: 1024px) {
+      .casino-container footer {
+        margin-top: 200px; } }
+    @media (max-width: 1023px) {
+      .casino-container footer {
+        margin-top: 0; } }
+    .casino-container footer .footer-content .box-container {
+      width: 20%; }
+      .casino-container footer .footer-content .box-container .box {
+        width: 100%;
+        padding-top: 100%;
+        position: relative; }
+        .casino-container footer .footer-content .box-container .box .box-content {
+          top: 0;
+          left: 0;
+          right: 0;
+          width: calc(100% - 110px);
+          height: calc(100% - 110px);
+          margin: auto;
+          display: block;
+          position: absolute; }
+          @media (max-width: 1100px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 100px);
+              height: calc(100% - 100px); } }
+          @media (max-width: 1024px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 105px);
+              height: calc(100% - 105px); } }
+          @media (max-width: 950px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 85px);
+              height: calc(100% - 85px); } }
+          @media (max-width: 900px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 80px);
+              height: calc(100% - 80px); } }
+          @media (max-width: 823px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 85px);
+              height: calc(100% - 85px); } }
+          @media (max-width: 812px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 85px);
+              height: calc(100% - 85px); } }
+          @media (max-width: 768px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 80px);
+              height: calc(100% - 80px); } }
+          @media (max-width: 640px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 65px);
+              height: calc(100% - 65px); } }
+          @media (max-width: 600px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 40px);
+              height: calc(100% - 40px); } }
+          @media (max-width: 584px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 60px);
+              height: calc(100% - 60px); } }
+          @media (max-width: 568px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 60px);
+              height: calc(100% - 60px); } }
+          @media (max-width: 480px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 30px);
+              height: calc(100% - 30px); } }
+          @media (max-width: 414px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 42px);
+              height: calc(100% - 42px); } }
+          @media (max-width: 411px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 45px);
+              height: calc(100% - 45px); } }
+          @media (max-width: 375px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 35px);
+              height: calc(100% - 35px); } }
+          @media (max-width: 360px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 35px);
+              height: calc(100% - 35px); } }
+          @media (max-width: 320px) {
+            .casino-container footer .footer-content .box-container .box .box-content {
+              width: calc(100% - 30px);
+              height: calc(100% - 30px); } }
+          .casino-container footer .footer-content .box-container .box .box-content.box-content-1 {
+            background: url(../img/footer-info-1.png) no-repeat center center;
+            background-size: cover; }
+            .casino-container footer .footer-content .box-container .box .box-content.box-content-1:hover {
+              background: url(../img/footer-info-1-hover.png) no-repeat center center;
+              background-size: cover; }
+          .casino-container footer .footer-content .box-container .box .box-content.box-content-2 {
+            background: url(../img/footer-info-2.png) no-repeat center center;
+            background-size: cover; }
+            .casino-container footer .footer-content .box-container .box .box-content.box-content-2:hover {
+              background: url(../img/footer-info-2-hover.png) no-repeat center center;
+              background-size: cover; }
+          .casino-container footer .footer-content .box-container .box .box-content.box-content-3 {
+            background: url(../img/footer-info-3.png) no-repeat center center;
+            background-size: cover; }
+            .casino-container footer .footer-content .box-container .box .box-content.box-content-3.active {
+              background: url(../img/footer-info-3-hover.png) no-repeat center center;
+              background-size: cover; }
+            .casino-container footer .footer-content .box-container .box .box-content.box-content-3:hover {
+              background: url(../img/footer-info-3-hover.png) no-repeat center center;
+              background-size: cover; }
+          .casino-container footer .footer-content .box-container .box .box-content.box-content-4 {
+            background: url(../img/footer-info-4.png) no-repeat center center;
+            background-size: cover; }
+            .casino-container footer .footer-content .box-container .box .box-content.box-content-4:hover {
+              background: url(../img/footer-info-4-hover.png) no-repeat center center;
+              background-size: cover; }
+          .casino-container footer .footer-content .box-container .box .box-content.box-content-5 {
+            background: url(../img/footer-info-5.png) no-repeat center center;
+            background-size: cover; }
+            .casino-container footer .footer-content .box-container .box .box-content.box-content-5:hover {
+              background: url(../img/footer-info-5-hover.png) no-repeat center center;
+              background-size: cover; }
+      .casino-container footer .footer-content .box-container p {
+        font-weight: 400;
+        color: #fff;
+        font-size: 32px;
+        padding-top: 20px;
+        margin-top: -90px; }
+        .casino-container footer .footer-content .box-container p:hover {
+          color: #e6ba13; }
+        .casino-container footer .footer-content .box-container p:active {
+          color: #f5e091; }
+        @media (max-width: 1024px) {
+          .casino-container footer .footer-content .box-container p {
+            font-size: 32px;
+            margin-top: -120px; } }
+        @media (max-width: 950px) {
+          .casino-container footer .footer-content .box-container p {
+            margin-top: -50px; } }
+        @media (max-width: 823px) {
+          .casino-container footer .footer-content .box-container p {
+            padding: 0 10px;
+            font-size: 25px;
+            margin-top: -85px; } }
+        @media (max-width: 812px) {
+          .casino-container footer .footer-content .box-container p {
+            padding: 0 10px;
+            font-size: 25px;
+            margin-top: -85px; } }
+        @media (max-width: 768px) {
+          .casino-container footer .footer-content .box-container p {
+            padding: 0 24px;
+            font-size: 25px;
+            margin-top: -70px; } }
+        @media (max-width: 736px) {
+          .casino-container footer .footer-content .box-container p {
+            font-size: 20px;
+            margin-top: -60px; } }
+        @media (max-width: 680px) {
+          .casino-container footer .footer-content .box-container p {
+            font-size: 18px; } }
+        @media (max-width: 667px) {
+          .casino-container footer .footer-content .box-container p {
+            font-size: 20px;
+            margin-top: -70px; } }
+        @media (max-width: 640px) {
+          .casino-container footer .footer-content .box-container p {
+            font-size: 20px;
+            margin-top: -50px; } }
+        @media (max-width: 600px) {
+          .casino-container footer .footer-content .box-container p {
+            font-size: 16px; } }
+        @media (max-width: 568px) {
+          .casino-container footer .footer-content .box-container p {
+            font-size: 18px; } }
+        @media (max-width: 560px) {
+          .casino-container footer .footer-content .box-container p {
+            padding: 0 16px; } }
+        @media (max-width: 480px) {
+          .casino-container footer .footer-content .box-container p {
+            padding: 0 8px;
+            font-size: 14px;
+            margin-top: -15px; } }
+        @media (max-width: 414px) {
+          .casino-container footer .footer-content .box-container p {
+            margin-top: -30px;
+            font-size: 13px; } }
+        @media (max-width: 360px) {
+          .casino-container footer .footer-content .box-container p {
+            padding: 0 5px;
+            font-size: 12px;
+            margin-top: 0; } }
+        @media (max-width: 360px) {
+          .casino-container footer .footer-content .box-container p {
+            padding: 0 5px;
+            font-size: 10px;
+            margin-top: -20px; } }
+    .casino-container footer .footer-content .box-container:hover .box-content-1 {
+      background: url(../img/footer-info-1-hover.png) no-repeat center center;
+      background-size: cover; }
+    .casino-container footer .footer-content .box-container:hover .box-content-2 {
+      background: url(../img/footer-info-2-hover.png) no-repeat center center;
+      background-size: cover; }
+    .casino-container footer .footer-content .box-container:hover .box-content-3 {
+      background: url(../img/footer-info-3-hover.png) no-repeat center center;
+      background-size: cover; }
+    .casino-container footer .footer-content .box-container:hover .box-content-4 {
+      background: url(../img/footer-info-4-hover.png) no-repeat center center;
+      background-size: cover; }
+    .casino-container footer .footer-content .box-container:hover .box-content-5 {
+      background: url(../img/footer-info-5-hover.png) no-repeat center center;
+      background-size: cover; }
+    .casino-container footer .footer-content .box-container:hover p {
+      color: #e6ba13; }
+    .casino-container footer .footer-content .box-container.active .box-content-3 {
+      background: url(../img/footer-info-3-hover.png) no-repeat center center;
+      background-size: cover; }
+    .casino-container footer .footer-content .box-container.active p {
+      color: #f5e091; }
+    .casino-container footer ul {
+      margin-bottom: 0; }
+      .casino-container footer ul p {
+        margin-bottom: 0; }
+
+/* ---start hambuger menu--- */
+.header-demo-signin {
+  background: url(../img/header-bg.png) center center no-repeat;
+  background-size: cover;
+  padding: 40px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+  @media (max-width: 768px) {
+    .header-demo-signin {
+      padding: 15px 30px; } }
+  @media (max-width: 480px) {
+    .header-demo-signin {
+      padding: 15px; } }
+  @media (max-width: 360px) {
+    .header-demo-signin {
+      padding: 10px; } }
+  .header-demo-signin img.logo {
+    position: absolute;
+    left: 33%;
+    top: 20%; }
+    @media (max-width: 768px) {
+      .header-demo-signin img.logo {
+        width: 250px;
+        top: 10%; } }
+    @media (max-width: 480px) {
+      .header-demo-signin img.logo {
+        width: 200px;
+        top: 20%;
+        left: 22%; } }
+
+.header-widthdrawal {
+  background: #ee9ca7;
+  background: -webkit-linear-gradient(to right, #f6e399, #fff4cb);
+  background: linear-gradient(to right, #f6e399, #fff4cb);
+  padding: 30px 45px; }
+  @media (max-width: 1024px) {
+    .header-widthdrawal {
+      padding: 28px 30px; } }
+  @media (max-width: 768px) {
+    .header-widthdrawal {
+      padding: 20px 30px; } }
+  @media (max-width: 425px) {
+    .header-widthdrawal {
+      padding: 0 15px; } }
+  @media (max-width: 414px) {
+    .header-widthdrawal {
+      padding: 0 20px; } }
+  @media (max-width: 375px) {
+    .header-widthdrawal {
+      padding: 0 20px; } }
+  .header-widthdrawal .widthdrawal-title {
+    color: #000;
+    font-size: 50px;
+    font-weight: 500; }
+    @media (max-width: 812px) {
+      .header-widthdrawal .widthdrawal-title {
+        font-size: 40px; } }
+    @media (max-width: 768px) {
+      .header-widthdrawal .widthdrawal-title {
+        font-size: 37px; } }
+    @media (max-width: 425px) {
+      .header-widthdrawal .widthdrawal-title {
+        font-size: 20px; } }
+    @media (max-width: 414px) {
+      .header-widthdrawal .widthdrawal-title {
+        font-size: 20px; } }
+    @media (max-width: 375px) {
+      .header-widthdrawal .widthdrawal-title {
+        font-size: 18px; } }
+  .header-widthdrawal .arrow-back img {
+    width: 58px;
+    height: 104px; }
+    @media (max-width: 1024px) {
+      .header-widthdrawal .arrow-back img {
+        width: 56px;
+        height: 99px; } }
+    @media (max-width: 812px) {
+      .header-widthdrawal .arrow-back img {
+        width: 44px;
+        height: 79px; } }
+    @media (max-width: 768px) {
+      .header-widthdrawal .arrow-back img {
+        width: 42px;
+        height: 75px; } }
+    @media (max-width: 425px) {
+      .header-widthdrawal .arrow-back img {
+        width: 24px;
+        height: 42px; } }
+    @media (max-width: 414px) {
+      .header-widthdrawal .arrow-back img {
+        width: 23px;
+        height: 41px; } }
+    @media (max-width: 375px) {
+      .header-widthdrawal .arrow-back img {
+        width: 22px;
+        height: 37px; } }
+
+.nav__item .sub-menu-item1 {
+  background: url("../img/menu-toogle-1.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .nav__item .sub-menu-item1 {
+      width: 60px;
+      height: 60px; } }
+.nav__item .sub-menu-item2 {
+  background: url("../img/menu-toogle-2.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .nav__item .sub-menu-item2 {
+      width: 60px;
+      height: 60px; } }
+.nav__item .sub-menu-item2 {
+  background: url("../img/menu-toogle-2.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .nav__item .sub-menu-item2 {
+      width: 60px;
+      height: 60px; } }
+.nav__item .sub-menu-item3 {
+  background: url("../img/menu-toogle-3.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .nav__item .sub-menu-item3 {
+      width: 60px;
+      height: 60px; } }
+.nav__item .sub-menu-item4 {
+  background: url("../img/menu-toogle-4.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .nav__item .sub-menu-item4 {
+      width: 60px;
+      height: 60px; } }
+.nav__item .sub-menu-item5 {
+  background: url("../img/menu-toogle-5.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .nav__item .sub-menu-item5 {
+      width: 60px;
+      height: 60px; } }
+.nav__item .sub-menu-item6 {
+  background: url("../img/menu-toogle-6.png") center center no-repeat;
+  background-size: cover;
+  width: 90px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .nav__item .sub-menu-item6 {
+      width: 80px;
+      height: 60px; } }
+.nav__item .sub-menu-item7 {
+  background: url("../img/menu-toogle-7.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .nav__item .sub-menu-item7 {
+      width: 60px;
+      height: 60px; } }
+.nav__item .sub-menu-item8 {
+  background: url("../img/menu-toogle-8.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .nav__item .sub-menu-item8 {
+      width: 60px;
+      height: 60px; } }
+
+.sub-menu1:hover .sub-menu-item1 {
+  background: url("../img/menu-toogle-1-hover.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .sub-menu1:hover .sub-menu-item1 {
+      width: 60px;
+      height: 60px; } }
+
+.sub-menu2:hover .sub-menu-item2 {
+  background: url("../img/menu-toogle-2-hover.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .sub-menu2:hover .sub-menu-item2 {
+      width: 60px;
+      height: 60px; } }
+
+.sub-menu3:hover .sub-menu-item3 {
+  background: url("../img/menu-toogle-3-hover.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .sub-menu3:hover .sub-menu-item3 {
+      width: 60px;
+      height: 60px; } }
+
+.sub-menu4:hover .sub-menu-item4 {
+  background: url("../img/menu-toogle-4-hover.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .sub-menu4:hover .sub-menu-item4 {
+      width: 60px;
+      height: 60px; } }
+
+.sub-menu5:hover .sub-menu-item5 {
+  background: url("../img/menu-toogle-5-hover.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .sub-menu5:hover .sub-menu-item5 {
+      width: 60px;
+      height: 60px; } }
+
+.sub-menu6 {
+  text-align: center; }
+  .sub-menu6:after {
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    font-size: 30px; }
+  .sub-menu6:hover .sub-menu-item6 {
+    background: url("../img/menu-toogle-6-hover.png") center center no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 80px; }
+    @media (max-width: 768px) {
+      .sub-menu6:hover .sub-menu-item6 {
+        width: 80px;
+        height: 60px; } }
+
+.sub-menu7:after {
+  content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  font-size: 30px; }
+.sub-menu7:hover .sub-menu-item7 {
+  background: url("../img/menu-toogle-7-hover.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .sub-menu7:hover .sub-menu-item7 {
+      width: 60px;
+      height: 60px; } }
+
+.sub-menu8:hover .sub-menu-item8 {
+  background: url("../img/menu-toogle-8-hover.png") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  @media (max-width: 768px) {
+    .sub-menu8:hover .sub-menu-item8 {
+      width: 60px;
+      height: 60px; } }
+
+.menu-bugger-container {
+  border-bottom: 2px solid #171717;
+  background: rgba(0, 0, 0, 0.35); }
+  .menu-bugger-container .menu-bugger-left,
+  .menu-bugger-container .menu-bugger-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*img{
+        width: 90px;
+        height: 90px;
+    }*/ }
+    .menu-bugger-container .menu-bugger-left p,
+    .menu-bugger-container .menu-bugger-right p {
+      color: #fff;
+      font-size: 55px; }
+      @media (max-width: 820px) {
+        .menu-bugger-container .menu-bugger-left p,
+        .menu-bugger-container .menu-bugger-right p {
+          font-size: 45px; } }
+      @media (max-width: 768px) {
+        .menu-bugger-container .menu-bugger-left p,
+        .menu-bugger-container .menu-bugger-right p {
+          font-size: 40px; } }
+      @media (max-width: 560px) {
+        .menu-bugger-container .menu-bugger-left p,
+        .menu-bugger-container .menu-bugger-right p {
+          font-size: 30px; } }
+      @media (max-width: 480px) {
+        .menu-bugger-container .menu-bugger-left p,
+        .menu-bugger-container .menu-bugger-right p {
+          font-size: 25px; } }
+  .menu-bugger-container .widthdrawal-user {
+    width: 83px;
+    height: auto; }
+    @media (max-width: 1024px) {
+      .menu-bugger-container .widthdrawal-user {
+        width: 79px;
+        height: auto; } }
+    @media (max-width: 820px) {
+      .menu-bugger-container .widthdrawal-user {
+        width: 65px;
+        height: auto; } }
+    @media (max-width: 768px) {
+      .menu-bugger-container .widthdrawal-user {
+        width: 64px;
+        height: auto; } }
+    @media (max-width: 660px) {
+      .menu-bugger-container .widthdrawal-user {
+        width: 51px;
+        height: auto; } }
+    @media (max-width: 560px) {
+      .menu-bugger-container .widthdrawal-user {
+        width: 43px;
+        height: auto; } }
+    @media (max-width: 480px) {
+      .menu-bugger-container .widthdrawal-user {
+        width: 37px;
+        height: auto; } }
+    @media (max-width: 414px) {
+      .menu-bugger-container .widthdrawal-user {
+        width: 32px;
+        height: auto; } }
+    @media (max-width: 375px) {
+      .menu-bugger-container .widthdrawal-user {
+        width: 32px;
+        height: auto; } }
+  .menu-bugger-container .widthdrawal-mail {
+    width: 90px;
+    height: auto; }
+    @media (max-width: 1024px) {
+      .menu-bugger-container .widthdrawal-mail {
+        width: 86px;
+        height: auto; } }
+    @media (max-width: 820px) {
+      .menu-bugger-container .widthdrawal-mail {
+        width: 70px;
+        height: auto; } }
+    @media (max-width: 768px) {
+      .menu-bugger-container .widthdrawal-mail {
+        width: 65px;
+        height: auto; } }
+    @media (max-width: 660px) {
+      .menu-bugger-container .widthdrawal-mail {
+        width: 56px;
+        height: auto; } }
+    @media (max-width: 560px) {
+      .menu-bugger-container .widthdrawal-mail {
+        width: 48px;
+        height: auto; } }
+    @media (max-width: 480px) {
+      .menu-bugger-container .widthdrawal-mail {
+        width: 39px;
+        height: auto; } }
+    @media (max-width: 414px) {
+      .menu-bugger-container .widthdrawal-mail {
+        width: 40px;
+        height: auto; } }
+    @media (max-width: 375px) {
+      .menu-bugger-container .widthdrawal-mail {
+        width: 33px;
+        height: auto; } }
+  .menu-bugger-container .widthdrawal-money {
+    width: 80px;
+    height: auto; }
+    @media (max-width: 1024px) {
+      .menu-bugger-container .widthdrawal-money {
+        width: 77px;
+        height: auto; } }
+    @media (max-width: 820px) {
+      .menu-bugger-container .widthdrawal-money {
+        width: 62px;
+        height: auto; } }
+    @media (max-width: 768px) {
+      .menu-bugger-container .widthdrawal-money {
+        width: 58px;
+        height: auto; } }
+    @media (max-width: 660px) {
+      .menu-bugger-container .widthdrawal-money {
+        width: 50px;
+        height: auto; } }
+    @media (max-width: 560px) {
+      .menu-bugger-container .widthdrawal-money {
+        width: 42px;
+        height: auto; } }
+    @media (max-width: 480px) {
+      .menu-bugger-container .widthdrawal-money {
+        width: 37px;
+        height: auto; } }
+    @media (max-width: 414px) {
+      .menu-bugger-container .widthdrawal-money {
+        width: 31px;
+        height: auto; } }
+    @media (max-width: 375px) {
+      .menu-bugger-container .widthdrawal-money {
+        width: 29px;
+        height: auto; } }
+  .menu-bugger-container .menu-bugger-left {
+    height: 100%; }
+  .menu-bugger-container .bugger-left,
+  .menu-bugger-container .bugger-right {
+    width: 50%;
+    padding: 20px 40px; }
+    @media (max-width: 820px) {
+      .menu-bugger-container .bugger-left,
+      .menu-bugger-container .bugger-right {
+        padding: 15px 40px; } }
+    @media (max-width: 768px) {
+      .menu-bugger-container .bugger-left,
+      .menu-bugger-container .bugger-right {
+        padding: 20px 30px; } }
+    @media (max-width: 480px) {
+      .menu-bugger-container .bugger-left,
+      .menu-bugger-container .bugger-right {
+        padding: 10px 20px; } }
+    @media (max-width: 414px) {
+      .menu-bugger-container .bugger-left,
+      .menu-bugger-container .bugger-right {
+        padding: 0 15px; } }
+    @media (max-width: 375px) {
+      .menu-bugger-container .bugger-left,
+      .menu-bugger-container .bugger-right {
+        padding: 0px 20px; } }
+    @media (max-width: 360px) {
+      .menu-bugger-container .bugger-left,
+      .menu-bugger-container .bugger-right {
+        padding: 0px 20px; } }
+  .menu-bugger-container .bugger-left {
+    border-right: 1px solid #525252; }
+  .menu-bugger-container .dropdown__opening img,
+  .menu-bugger-container .dropdown__closing img {
+    width: 75px;
+    height: auto; }
+    @media (max-width: 1024px) {
+      .menu-bugger-container .dropdown__opening img,
+      .menu-bugger-container .dropdown__closing img {
+        width: 72px;
+        height: auto; } }
+    @media (max-width: 820px) {
+      .menu-bugger-container .dropdown__opening img,
+      .menu-bugger-container .dropdown__closing img {
+        width: 58px;
+        height: auto; } }
+    @media (max-width: 768px) {
+      .menu-bugger-container .dropdown__opening img,
+      .menu-bugger-container .dropdown__closing img {
+        width: 54px;
+        height: auto; } }
+    @media (max-width: 660px) {
+      .menu-bugger-container .dropdown__opening img,
+      .menu-bugger-container .dropdown__closing img {
+        width: 47px;
+        height: auto; } }
+    @media (max-width: 560px) {
+      .menu-bugger-container .dropdown__opening img,
+      .menu-bugger-container .dropdown__closing img {
+        width: 40px;
+        height: auto; } }
+    @media (max-width: 414px) {
+      .menu-bugger-container .dropdown__opening img,
+      .menu-bugger-container .dropdown__closing img {
+        width: 30px;
+        height: auto; } }
+    @media (max-width: 360px) {
+      .menu-bugger-container .dropdown__opening img,
+      .menu-bugger-container .dropdown__closing img {
+        width: 25px;
+        height: auto; } }
+
+/*.nav__link---title{
+    font-size: 20px;
+    font-weight: 400;
+}*/
+.nav__wrap-bottom .nav__link p {
+  font-size: 40px; }
+  @media (max-width: 768px) {
+    .nav__wrap-bottom .nav__link p {
+      font-size: 30px; } }
+  @media (max-width: 480px) {
+    .nav__wrap-bottom .nav__link p {
+      font-size: 18px; } }
+.nav__wrap-bottom .nav__link .nav__link--title {
+  font-size: 45px; }
+  @media (max-width: 768px) {
+    .nav__wrap-bottom .nav__link .nav__link--title {
+      font-size: 32px; } }
+  @media (max-width: 480px) {
+    .nav__wrap-bottom .nav__link .nav__link--title {
+      font-size: 20px; } }
+.nav__wrap-bottom .nav__link .nav__link--number {
+  color: #f5e091; }
+.nav__wrap-bottom .nav__link:hover p {
+  color: #f5e091; }
+
+.header-demo-signin {
+  /*@media (max-width: 480px){
+      padding: 8px 0;
+  }*/ }
+  .header-demo-signin .dropdown__open img,
+  .header-demo-signin .dropdown__close img {
+    width: 110px;
+    height: 80px; }
+    @media (max-width: 1024px) {
+      .header-demo-signin .dropdown__open img,
+      .header-demo-signin .dropdown__close img {
+        width: 105px;
+        height: 75px; } }
+    @media (max-width: 820px) {
+      .header-demo-signin .dropdown__open img,
+      .header-demo-signin .dropdown__close img {
+        width: 80px;
+        height: 65px; } }
+    @media (max-width: 812px) {
+      .header-demo-signin .dropdown__open img,
+      .header-demo-signin .dropdown__close img {
+        width: 90px;
+        height: 69px; } }
+    @media (max-width: 768px) {
+      .header-demo-signin .dropdown__open img,
+      .header-demo-signin .dropdown__close img {
+        width: 86px;
+        height: 66px; } }
+    @media (max-width: 660px) {
+      .header-demo-signin .dropdown__open img,
+      .header-demo-signin .dropdown__close img {
+        width: 70px;
+        height: 50px; } }
+    @media (max-width: 560px) {
+      .header-demo-signin .dropdown__open img,
+      .header-demo-signin .dropdown__close img {
+        width: 52px;
+        height: 45px; } }
+    @media (max-width: 425px) {
+      .header-demo-signin .dropdown__open img,
+      .header-demo-signin .dropdown__close img {
+        width: 48px;
+        height: 37px; } }
+    @media (max-width: 414px) {
+      .header-demo-signin .dropdown__open img,
+      .header-demo-signin .dropdown__close img {
+        width: 45px;
+        height: 35px; } }
+    @media (max-width: 375px) {
+      .header-demo-signin .dropdown__open img,
+      .header-demo-signin .dropdown__close img {
+        width: 42px;
+        height: 33px; } }
+    @media (max-width: 360px) {
+      .header-demo-signin .dropdown__open img,
+      .header-demo-signin .dropdown__close img {
+        width: 35px;
+        height: 30px; } }
+
+@media (max-width: 768px) {
+  .nav--default.is--active {
+    top: 16% !important;
+    width: 100% !important; } }
+
+.menu-bugger-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px; }
+  @media (max-width: 1024px) {
+    .menu-bugger-button {
+      padding: 20px; } }
+
+@media (max-width: 1024px) {
+  .dropdown__button {
+    padding-right: 13px !important; } }
+@media (max-width: 480px) {
+  .dropdown__button {
+    width: 42.5px !important;
+    height: 60px !important; } }
+
+/*.dropdown__toogle-btn{
+    width: 75px !important;
+    padding-left: 0 !important;
+    @media (max-width: 480px){
+        width: 45px !important;
+    }
+}*/
+@media (max-width: 480px) {
+  .dropdown__closing:before {
+    font-size: 45px !important; } }
+
+.nav__link--btn {
+  width: 320px;
+  height: 120px;
+  background: #f5e091;
+  text-align: center;
+  border-radius: 15px;
+  color: #000 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .nav__link--btn:hover {
+    background: #d8b11e; }
+  @media (max-width: 1024px) {
+    .nav__link--btn {
+      width: 300px;
+      height: 110px; } }
+  @media (max-width: 768px) {
+    .nav__link--btn {
+      width: 230px;
+      height: 85px; } }
+  @media (max-width: 480px) {
+    .nav__link--btn {
+      width: 140px;
+      height: 52px; } }
+
+.fa-redo-alt {
+  font-size: 5em;
+  float: left;
+  margin: 3px 20px;
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition: 0.6s ease-out;
+  transition: 0.6s ease-out; }
+  .fa-redo-alt:hover {
+    -webkit-transform: rotateZ(720deg);
+    -moz-transform: rotateZ(720deg);
+    transform: rotateZ(720deg); }
+
+::-webkit-scrollbar {
+  width: 12px; }
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); }
+
+.fa-redo-alt:before {
+  font-size: 110px;
+  color: #f5e091; }
+  @media (max-width: 1024px) {
+    .fa-redo-alt:before {
+      font-size: 105px; } }
+  @media (max-width: 768px) {
+    .fa-redo-alt:before {
+      font-size: 80px; } }
+  @media (max-width: 480px) {
+    .fa-redo-alt:before {
+      font-size: 50px; } }
+
+/* ---start widthdrawal--- */
+/* ---start header widthdrawal--- */
+/* ---start casino my account-- */
+.casino-my-account p {
+  color: #f5e091;
+  text-align: center;
+  font-size: 37px;
+  padding-bottom: 20px; }
+  @media (max-width: 1024px) {
+    .casino-my-account p {
+      font-size: 35px; } }
+  @media (max-width: 768px) {
+    .casino-my-account p {
+      font-size: 27px; } }
+  @media (max-width: 414px) {
+    .casino-my-account p {
+      font-size: 15px; } }
+  @media (max-width: 375px) {
+    .casino-my-account p {
+      font-size: 13px; } }
+.casino-my-account .casino-account-box {
+  margin-bottom: 25px; }
+  @media (max-width: 414px) {
+    .casino-my-account .casino-account-box {
+      margin-bottom: 10px; } }
+  .casino-my-account .casino-account-box .casino-account-items {
+    background: #363636;
+    border-radius: 10px;
+    height: 110px;
+    line-height: 110px;
+    width: 100%; }
+    .casino-my-account .casino-account-box .casino-account-items:not(:last-child) {
+      margin-right: 20px; }
+      @media (max-width: 414px) {
+        .casino-my-account .casino-account-box .casino-account-items:not(:last-child) {
+          margin-right: 10px; } }
+    .casino-my-account .casino-account-box .casino-account-items p {
+      color: #fff;
+      text-align: left;
+      font-size: 37px;
+      padding-left: 20px; }
+      @media (max-width: 1024px) {
+        .casino-my-account .casino-account-box .casino-account-items p {
+          padding-left: 15px; } }
+      @media (max-width: 768px) {
+        .casino-my-account .casino-account-box .casino-account-items p {
+          font-size: 25px;
+          padding-left: 10px; } }
+      @media (max-width: 414px) {
+        .casino-my-account .casino-account-box .casino-account-items p {
+          font-size: 14px;
+          padding-left: 5px; } }
+    .casino-my-account .casino-account-box .casino-account-items .form-group .casino-deposit-form {
+      height: 110px;
+      border-radius: 15px !important;
+      font-size: 37px !important; }
+      @media (max-width: 414px) {
+        .casino-my-account .casino-account-box .casino-account-items .form-group .casino-deposit-form {
+          height: 38px;
+          border-radius: 10px !important;
+          font-size: 14px !important; } }
+    @media (max-width: 414px) {
+      .casino-my-account .casino-account-box .casino-account-items {
+        height: 40px;
+        line-height: 40px; } }
+
+/* ---end casino my account-- */
+/* ---end header widthdrawal--- */
+.widthdrawal {
+  background: #000;
+  /*padding-bottom: 250px;*/
+  /*@media (max-width: 768px) {
+      padding-bottom: 200px;
+  }
+  @media (max-width: 480px) {
+      padding-bottom: 100px;
+  }*/ }
+  .widthdrawal .widthdrawal-box .widthdrawal-top {
+    padding: 20px 0 10px 20px;
+    border-bottom: 1px dashed #a4a27f; }
+    @media (max-width: 480px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-top {
+        padding: 15px; } }
+    .widthdrawal .widthdrawal-box .widthdrawal-top p {
+      font-size: 16px;
+      font-weight: 400; }
+      @media (max-width: 480px) {
+        .widthdrawal .widthdrawal-box .widthdrawal-top p {
+          padding: 0; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .widthdrawal-bottom-box {
+    padding: 0 20px; }
+    @media (max-width: 320px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .widthdrawal-bottom-box {
+        padding: 0; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .fa-lock {
+    color: #fff; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom span {
+    color: #e90f0f; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .btn-chosee-bank {
+    background: #f1e490;
+    border-radius: 999px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400; }
+    @media (min-width: 480px) and (max-width: 767px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .btn-chosee-bank {
+        margin-top: 10px; } }
+    @media (max-width: 480px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .btn-chosee-bank {
+        margin-top: 10px;
+        text-align: center; } }
+    .widthdrawal .widthdrawal-box .widthdrawal-bottom .btn-chosee-bank:hover {
+      background: #2571a2;
+      color: #fff; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .btn-select {
+    background: #ed1c24;
+    border-radius: 999px;
+    width: 200px;
+    color: #fff; }
+    @media (max-width: 480px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .btn-select {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center; } }
+    .widthdrawal .widthdrawal-box .widthdrawal-bottom .btn-select:hover {
+      background: #1466b2;
+      color: #fff; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .btn-cancel {
+    background: #f5e091;
+    border-radius: 999px;
+    width: 200px;
+    color: #000000; }
+    @media (max-width: 480px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .btn-cancel {
+        padding-left: 0;
+        padding-right: 0; } }
+    .widthdrawal .widthdrawal-box .widthdrawal-bottom .btn-cancel:hover {
+      background: #858920;
+      color: #fff; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-name {
+    position: relative;
+    padding-bottom: 8px;
+    margin-top: 0; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-province {
+    position: relative; }
+    @media (max-width: 767px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-province {
+        padding-bottom: 0 !important; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-country {
+    position: relative; }
+    @media (max-width: 767px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-country {
+        padding-bottom: 0 !important; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-city {
+    position: relative; }
+    @media (max-width: 767px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-city {
+        padding-bottom: 0 !important; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-account {
+    position: relative;
+    padding-bottom: 8px; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-account {
+        line-height: 1; } }
+    @media (max-width: 767px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-account {
+        padding-top: 20px !important;
+        padding-bottom: 0 !important; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-number {
+    position: relative; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-number {
+        line-height: 1; } }
+    @media (max-width: 767px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-number {
+        padding-bottom: 0 !important; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-lock {
+    position: relative; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-note {
+    font-size: 25px; }
+    @media (max-width: 768px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-note {
+        font-size: 18px; } }
+    @media (max-width: 480px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .bank-note {
+        font-size: 16px;
+        margin-top: 0; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom input {
+    background-color: transparent;
+    height: 30px;
+    width: 260px; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom input:focus {
+    outline: none; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom input::-webkit-input-placeholder {
+    color: #fff; }
+    @media (max-width: 768px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom input::-webkit-input-placeholder {
+        font-size: 11px; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom input:-ms-input-placeholder {
+    color: #fff; }
+    @media (max-width: 768px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom input:-ms-input-placeholder {
+        font-size: 11px; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom input::placeholder {
+    color: #fff; }
+    @media (max-width: 768px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom input::placeholder {
+        font-size: 11px; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom input[type="text"] {
+    font: 16px 'Roboto', sans-serif;
+    color: #989898;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom :focus {
+    outline: none; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .col-3 {
+    float: left;
+    width: 27.33%;
+    margin: 40px 3%;
+    position: relative; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom input[type="text"] {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    height: 50px;
+    background: #2d2d2d;
+    border: 1px solid #555555; }
+    .widthdrawal .widthdrawal-box .widthdrawal-bottom input[type="text"]::placeholder {
+      color: #989898;
+      opacity: 1;
+      /* Firefox */ }
+    .widthdrawal .widthdrawal-box .widthdrawal-bottom input[type="text"]:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #989898; }
+    .widthdrawal .widthdrawal-box .widthdrawal-bottom input[type="text"]::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #989898; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .effect-1 {
+    border: 0;
+    padding: 7px 0;
+    border: 1px solid #ccc; }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .effect-1 ~ .focus-border {
+    position: absolute;
+    bottom: -2px;
+    left: 27%;
+    width: 0;
+    height: 3px;
+    background-color: #ddd317;
+    transition: 0.4s; }
+    @media (max-width: 768px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-bottom .effect-1 ~ .focus-border {
+        position: inherit; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-bottom .effect-1:focus ~ .focus-border {
+    width: 70%;
+    transition: 0.4s; }
+  .widthdrawal .widthdrawal-box select.bank-select {
+    height: 50px;
+    background: #2d2d2d;
+    color: #989898; }
+  .widthdrawal .widthdrawal-box .widthdrawal-select-bank .btn {
+    padding: 0;
+    background: #f5e091;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-transform: none; }
+    @media (max-width: 768px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-select-bank .btn {
+        font-size: 14px; } }
+    .widthdrawal .widthdrawal-box .widthdrawal-select-bank .btn:hover {
+      background: #dcb625; }
+    .widthdrawal .widthdrawal-box .widthdrawal-select-bank .btn:active {
+      border: none;
+      box-shadow: none; }
+    .widthdrawal .widthdrawal-box .widthdrawal-select-bank .btn:focus {
+      box-shadow: none !important; }
+  .widthdrawal .widthdrawal-box .widthdrawal-vnd {
+    color: #ddd;
+    font-size: 22px; }
+    @media (max-width: 768px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-vnd {
+        font-size: 18px; } }
+    @media (max-width: 480px) {
+      .widthdrawal .widthdrawal-box .widthdrawal-vnd {
+        display: none; } }
+  .widthdrawal .widthdrawal-box .widthdrawal-password input {
+    border: 1px solid #555555;
+    height: 50px;
+    background: #2d2d2d;
+    width: 100%; }
+    .widthdrawal .widthdrawal-box .widthdrawal-password input:hover {
+      box-shadow: 0 0 0 0.2rem rgba(90, 92, 81, 0.5); }
+    .widthdrawal .widthdrawal-box .widthdrawal-password input:active {
+      border: none;
+      box-shadow: none; }
+    .widthdrawal .widthdrawal-box .widthdrawal-password input:focus {
+      box-shadow: none !important; }
+  @media (max-width: 480px) {
+    .widthdrawal .btn-select-box {
+      margin-top: 0; } }
+  @media (max-width: 480px) {
+    .widthdrawal .widthdrawal-signin-box {
+      margin-top: 10px; } }
+
+/* ---end widthdrawal--- */
+/* ---start sign in--- */
+.modal-dialog {
+  margin: 0 auto !important;
+  max-width: 1080px !important;
+  padding: 0 45px; }
+  @media (max-width: 1024px) {
+    .modal-dialog {
+      padding: 0 45px;
+      max-width: 100%; } }
+  @media (max-width: 736px) {
+    .modal-dialog {
+      padding: 0 30px; } }
+  @media (max-width: 414px) {
+    .modal-dialog {
+      padding: 0 20px;
+      max-width: 100%; } }
+  .modal-dialog .modal-content {
+    border-radius: 10px;
+    margin-top: 30%; }
+    .modal-dialog .modal-content .modal-header {
+      height: 170px;
+      align-items: center !important;
+      background: #ee9ca7;
+      background: -webkit-linear-gradient(to right, #f5e194, #fef2c7);
+      background: linear-gradient(to right, #f5e194, #fef2c7);
+      padding: 25px; }
+      @media (max-width: 1024px) {
+        .modal-dialog .modal-content .modal-header {
+          height: 155px;
+          padding: 25px; } }
+      @media (max-width: 812px) {
+        .modal-dialog .modal-content .modal-header {
+          height: 160px; } }
+      @media (max-width: 768px) {
+        .modal-dialog .modal-content .modal-header {
+          height: 120px;
+          padding: 20px; } }
+      @media (max-width: 667px) {
+        .modal-dialog .modal-content .modal-header {
+          height: 105px;
+          padding: 15px; } }
+      @media (max-width: 414px) {
+        .modal-dialog .modal-content .modal-header {
+          height: 65px;
+          padding: 10px; } }
+      @media (max-width: 414px) {
+        .modal-dialog .modal-content .modal-header {
+          height: 58px; } }
+      .modal-dialog .modal-content .modal-header h1 {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 0; }
+        @media (max-width: 768px) {
+          .modal-dialog .modal-content .modal-header h1 {
+            font-size: 36px; } }
+        @media (max-width: 414px) {
+          .modal-dialog .modal-content .modal-header h1 {
+            font-size: 19px; } }
+        @media (max-width: 375px) {
+          .modal-dialog .modal-content .modal-header h1 {
+            font-size: 18px; } }
+      .modal-dialog .modal-content .modal-header img {
+        width: 87px;
+        height: 79px;
+        color: #000;
+        -webkit-transition: 0.6s ease-out;
+        -moz-transition: 0.6s ease-out;
+        transition: 0.6s ease-out; }
+        .modal-dialog .modal-content .modal-header img:hover {
+          -webkit-transform: rotateZ(720deg);
+          -moz-transform: rotateZ(720deg);
+          transform: rotateZ(720deg); }
+        @media (max-width: 1024px) {
+          .modal-dialog .modal-content .modal-header img {
+            width: 84px;
+            height: 76px; } }
+        @media (max-width: 812px) {
+          .modal-dialog .modal-content .modal-header img {
+            width: 66px;
+            height: 60px; } }
+        @media (max-width: 768px) {
+          .modal-dialog .modal-content .modal-header img {
+            width: 63px;
+            height: 57px; } }
+        @media (max-width: 768px) {
+          .modal-dialog .modal-content .modal-header img {
+            width: 60px;
+            height: 54px; } }
+        @media (max-width: 414px) {
+          .modal-dialog .modal-content .modal-header img {
+            width: 34px;
+            height: 32px; } }
+        @media (max-width: 375px) {
+          .modal-dialog .modal-content .modal-header img {
+            width: 31px;
+            height: 27px; } }
+      .modal-dialog .modal-content .modal-header .close {
+        opacity: 1; }
+    .modal-dialog .modal-content .modal-body {
+      background: #1a1a1a;
+      padding: 80px; }
+      @media (max-width: 1024px) {
+        .modal-dialog .modal-content .modal-body {
+          padding: 70px; } }
+      @media (max-width: 812px) {
+        .modal-dialog .modal-content .modal-body {
+          padding: 60px; } }
+      @media (max-width: 768px) {
+        .modal-dialog .modal-content .modal-body {
+          padding: 55px; } }
+      @media (max-width: 667px) {
+        .modal-dialog .modal-content .modal-body {
+          padding: 50px; } }
+      @media (max-width: 414px) {
+        .modal-dialog .modal-content .modal-body {
+          padding: 30px; } }
+      @media (max-width: 375px) {
+        .modal-dialog .modal-content .modal-body {
+          padding: 20px; } }
+      .modal-dialog .modal-content .modal-body .input-container input:hover {
+        border: 3px solid #f6e298; }
+      .modal-dialog .modal-content .modal-body .input-container input:focus {
+        outline: none; }
+      .modal-dialog .modal-content .modal-body .input-container,
+      .modal-dialog .modal-content .modal-body .input-modal-user {
+        text-align: center;
+        position: relative; }
+        .modal-dialog .modal-content .modal-body .input-container input,
+        .modal-dialog .modal-content .modal-body .input-modal-user input {
+          width: 100%;
+          height: 149px;
+          background: transparent;
+          text-align: left;
+          font-size: 45px;
+          border: 3px solid #707070;
+          border-radius: 10px;
+          color: #a1a1a1;
+          margin-bottom: 65px;
+          padding-left: 130px; }
+          @media (max-width: 812px) {
+            .modal-dialog .modal-content .modal-body .input-container input,
+            .modal-dialog .modal-content .modal-body .input-modal-user input {
+              font-size: 32px;
+              height: 112px;
+              line-height: 112px;
+              margin-bottom: 40px;
+              padding-left: 100px; } }
+          @media (max-width: 768px) {
+            .modal-dialog .modal-content .modal-body .input-container input,
+            .modal-dialog .modal-content .modal-body .input-modal-user input {
+              font-size: 32px;
+              height: 105px;
+              line-height: 105px;
+              margin-bottom: 50px;
+              padding-left: 90px; } }
+          @media (max-width: 667px) {
+            .modal-dialog .modal-content .modal-body .input-container input,
+            .modal-dialog .modal-content .modal-body .input-modal-user input {
+              font-size: 28px;
+              height: 92px;
+              line-height: 92px;
+              margin-bottom: 40px;
+              padding-left: 80px; } }
+          @media (max-width: 414px) {
+            .modal-dialog .modal-content .modal-body .input-container input,
+            .modal-dialog .modal-content .modal-body .input-modal-user input {
+              font-size: 18px;
+              height: 57px;
+              line-height: 57px;
+              padding-left: 55px; } }
+          @media (max-width: 375px) {
+            .modal-dialog .modal-content .modal-body .input-container input,
+            .modal-dialog .modal-content .modal-body .input-modal-user input {
+              font-size: 15px;
+              height: 51px;
+              line-height: 51px;
+              margin-bottom: 25px;
+              padding-left: 50px; } }
+        .modal-dialog .modal-content .modal-body .input-container img.modal-user,
+        .modal-dialog .modal-content .modal-body .input-modal-user img.modal-user {
+          position: absolute;
+          top: 35px;
+          left: 35px; }
+          @media (max-width: 1024px) {
+            .modal-dialog .modal-content .modal-body .input-container img.modal-user,
+            .modal-dialog .modal-content .modal-body .input-modal-user img.modal-user {
+              width: 78px;
+              height: 76px; } }
+          @media (max-width: 812px) {
+            .modal-dialog .modal-content .modal-body .input-container img.modal-user,
+            .modal-dialog .modal-content .modal-body .input-modal-user img.modal-user {
+              width: 62px;
+              height: 60px;
+              top: 20px;
+              left: 25px; } }
+          @media (max-width: 768px) {
+            .modal-dialog .modal-content .modal-body .input-container img.modal-user,
+            .modal-dialog .modal-content .modal-body .input-modal-user img.modal-user {
+              width: 58px;
+              height: 57px;
+              top: 20px;
+              left: 20px; } }
+          @media (max-width: 667px) {
+            .modal-dialog .modal-content .modal-body .input-container img.modal-user,
+            .modal-dialog .modal-content .modal-body .input-modal-user img.modal-user {
+              width: 51px;
+              height: 49px;
+              top: 20px;
+              left: 15px; } }
+          @media (max-width: 414px) {
+            .modal-dialog .modal-content .modal-body .input-container img.modal-user,
+            .modal-dialog .modal-content .modal-body .input-modal-user img.modal-user {
+              width: 32px;
+              height: 32px;
+              top: 10px;
+              left: 15px; } }
+          @media (max-width: 375px) {
+            .modal-dialog .modal-content .modal-body .input-container img.modal-user,
+            .modal-dialog .modal-content .modal-body .input-modal-user img.modal-user {
+              width: 29px;
+              height: 29px;
+              top: 10px;
+              left: 10px; } }
+      .modal-dialog .modal-content .modal-body .input-modal-password img.modal-block {
+        position: absolute;
+        top: 20px;
+        left: 35px; }
+        @media (max-width: 1024px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-block {
+            width: 78px;
+            height: 95px; } }
+        @media (max-width: 812px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-block {
+            width: 62px;
+            height: 75px;
+            top: 15px;
+            left: 25px; } }
+        @media (max-width: 768px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-block {
+            width: 58px;
+            height: 71px;
+            top: 20px;
+            left: 20px; } }
+        @media (max-width: 667px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-block {
+            width: 51px;
+            height: 62px;
+            top: 10px;
+            left: 20px; } }
+        @media (max-width: 414px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-block {
+            width: 32px;
+            height: 39px;
+            top: 10px;
+            left: 15px; } }
+        @media (max-width: 375px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-block {
+            width: 29px;
+            height: 35px;
+            top: 7px;
+            left: 10px; } }
+      .modal-dialog .modal-content .modal-body .input-modal-password img.modal-question {
+        position: absolute;
+        top: 25px;
+        right: 30px; }
+        @media (max-width: 1024px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-question {
+            width: 77px;
+            height: 77px; } }
+        @media (max-width: 1024px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-question {
+            width: 61px;
+            height: 61px;
+            top: 25px;
+            right: 25px; } }
+        @media (max-width: 768px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-question {
+            width: 58px;
+            height: 58px;
+            top: 25px;
+            right: 20px; } }
+        @media (max-width: 667px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-question {
+            width: 50px;
+            height: 50px;
+            top: 20px;
+            right: 20px; } }
+        @media (max-width: 414px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-question {
+            width: 32px;
+            height: 31px;
+            top: 15px;
+            right: 15px; } }
+        @media (max-width: 375px) {
+          .modal-dialog .modal-content .modal-body .input-modal-password img.modal-question {
+            width: 28px;
+            height: 28px;
+            top: 10px;
+            right: 10px; } }
+      .modal-dialog .modal-content .modal-body .modal-button {
+        display: flex;
+        justify-content: space-between;
+                /*.modal-button-item {
+      position: relative;
+      box-sizing: border-box;
+      display: inline-block;
+      overflow: hidden;
+      text-align: center;
+      border: 2px solid rgb(255, 255, 255);
+      text-decoration: none;
+      white-space: nowrap;
+      z-index: 0;
+}*/ }
+        .modal-dialog .modal-content .modal-body .modal-button .modal-button-item {
+          width: 365px;
+          height: 140px;
+          text-align: center;
+          line-height: 140px;
+          border-radius: 10px;
+          font-size: 50px;
+          color: #000;
+          position: relative;
+          box-sizing: border-box;
+          display: inline-block;
+          overflow: hidden;
+          text-align: center;
+          border: 2px solid white;
+          text-decoration: none;
+          white-space: nowrap;
+          z-index: 0;
+          font-weight: 500; }
+          @media (max-width: 1024px) {
+            .modal-dialog .modal-content .modal-body .modal-button .modal-button-item {
+              width: 346px;
+              height: 132px;
+              font-size: 47px; } }
+          @media (max-width: 812px) {
+            .modal-dialog .modal-content .modal-body .modal-button .modal-button-item {
+              width: 274px;
+              height: 105px;
+              line-height: 105px;
+              font-size: 37px; } }
+          @media (max-width: 768px) {
+            .modal-dialog .modal-content .modal-body .modal-button .modal-button-item {
+              width: 259px;
+              height: 99px;
+              line-height: 99px; } }
+          @media (max-width: 667px) {
+            .modal-dialog .modal-content .modal-body .modal-button .modal-button-item {
+              width: 225px;
+              height: 86px;
+              line-height: 86px;
+              font-size: 30px; } }
+          @media (max-width: 414px) {
+            .modal-dialog .modal-content .modal-body .modal-button .modal-button-item {
+              width: 138px;
+              height: 53px;
+              line-height: 53px;
+              font-size: 20px; } }
+          @media (max-width: 375px) {
+            .modal-dialog .modal-content .modal-body .modal-button .modal-button-item {
+              width: 126px;
+              height: 48px;
+              line-height: 48px;
+              font-size: 18px; } }
+        .modal-dialog .modal-content .modal-body .modal-button .modal-button-item i {
+          padding-right: 8px; }
+        .modal-dialog .modal-content .modal-body .modal-button .modal-button-item::before {
+          position: absolute;
+          content: "";
+          background: #f5e193;
+          transition-duration: 0.3s;
+          z-index: -1;
+          top: 0px;
+          right: 0px;
+          bottom: auto;
+          left: auto;
+          width: 0px;
+          height: 100%;
+          opacity: 1;
+          /*border: 2px solid rgb(255, 255, 255);*/ }
+        .modal-dialog .modal-content .modal-body .modal-button .modal-button-item:hover::before {
+          width: 50%;
+          height: 100%;
+          opacity: 1; }
+        .modal-dialog .modal-content .modal-body .modal-button .modal-button-item {
+          background: #f5e193;
+          /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #f5e193, #fef2c6);
+          /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #f5e193, #fef2c6);
+          color: #000;
+          transition: all 0.3s ease 0s; }
+        .modal-dialog .modal-content .modal-body .modal-button .modal-button-signup {
+          background: #d4d4d4;
+          background: -webkit-linear-gradient(to right, #d4d4d4, #fdfdfd);
+          background: linear-gradient(to right, #d4d4d4, #fdfdfd);
+          color: #ea1e1e; }
+        .modal-dialog .modal-content .modal-body .modal-button .modal-button-item:hover {
+          color: black;
+          background: white;
+          transition: all 0.3s ease 0s; }
+        .modal-dialog .modal-content .modal-body .modal-button .modal-button-item::after {
+          position: absolute;
+          content: "";
+          background: #fef2c6;
+          transition-duration: 0.3s;
+          z-index: -1;
+          top: 0px;
+          right: auto;
+          bottom: auto;
+          left: 0px;
+          width: 0px;
+          height: 100%;
+          opacity: 1;
+          /*border: 2px solid rgb(255, 255, 255);*/ }
+        .modal-dialog .modal-content .modal-body .modal-button .modal-button-item:hover::after {
+          width: 50%; }
+
+/* ---end sign in--- */
+/* ---start support item--- */
+.support-container {
+  padding: 45px;
+  background: #000; }
+  @media (max-width: 812px) {
+    .support-container {
+      padding: 35px; } }
+  @media (max-width: 414px) {
+    .support-container {
+      padding: 20px; } }
+  @media (max-width: 375px) {
+    .support-container {
+      padding: 15px; } }
+  .support-container .support-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    margin-bottom: 45px;
+    height: 140px;
+    padding: 0 25px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: #fff; }
+    @media (max-width: 1024px) {
+      .support-container .support-item {
+        height: 132px; } }
+    @media (max-width: 812px) {
+      .support-container .support-item {
+        height: 105px;
+        font-size: 35px;
+        margin-bottom: 35px; } }
+    @media (max-width: 768px) {
+      .support-container .support-item {
+        height: 99px;
+        font-size: 25px;
+        margin-bottom: 30px; } }
+    @media (max-width: 414px) {
+      .support-container .support-item {
+        height: 53px;
+        font-size: 15px;
+        margin-bottom: 20px; } }
+    @media (max-width: 375px) {
+      .support-container .support-item {
+        height: 48px;
+        font-size: 15px;
+        margin-bottom: 15px; } }
+    .support-container .support-item:hover {
+      color: #f5e091; }
+    .support-container .support-item .supprot-time {
+      width: 82px;
+      height: 81px; }
+      @media (max-width: 1024px) {
+        .support-container .support-item .supprot-time {
+          width: 79px;
+          height: 78px; } }
+      @media (max-width: 812px) {
+        .support-container .support-item .supprot-time {
+          width: 62px;
+          height: 62px; } }
+      @media (max-width: 768px) {
+        .support-container .support-item .supprot-time {
+          width: 59px;
+          height: 59px; } }
+      @media (max-width: 414px) {
+        .support-container .support-item .supprot-time {
+          width: 33px;
+          height: 32px; } }
+      @media (max-width: 375px) {
+        .support-container .support-item .supprot-time {
+          width: 29px;
+          height: 29px; } }
+      @media (max-width: 360px) {
+        .support-container .support-item .supprot-time {
+          width: 28px;
+          height: 27px; } }
+    .support-container .support-item .supprot-call {
+      width: 81px;
+      height: 81px; }
+      @media (max-width: 1024px) {
+        .support-container .support-item .supprot-call {
+          width: 78px;
+          height: 78px; } }
+      @media (max-width: 812px) {
+        .support-container .support-item .supprot-call {
+          width: 62px;
+          height: 62px; } }
+      @media (max-width: 768px) {
+        .support-container .support-item .supprot-call {
+          width: 59px;
+          height: 59px; } }
+      @media (max-width: 414px) {
+        .support-container .support-item .supprot-call {
+          width: 32px;
+          height: 32px; } }
+      @media (max-width: 375px) {
+        .support-container .support-item .supprot-call {
+          width: 29px;
+          height: 30px; } }
+      @media (max-width: 360px) {
+        .support-container .support-item .supprot-call {
+          width: 28px;
+          height: 27px; } }
+    .support-container .support-item .supprot-mail {
+      width: 85px;
+      height: 85px; }
+      @media (max-width: 1024px) {
+        .support-container .support-item .supprot-mail {
+          width: 81px;
+          height: 82px; } }
+      @media (max-width: 812px) {
+        .support-container .support-item .supprot-mail {
+          width: 65px;
+          height: 65px; } }
+      @media (max-width: 768px) {
+        .support-container .support-item .supprot-mail {
+          width: 61px;
+          height: 62px; } }
+      @media (max-width: 414px) {
+        .support-container .support-item .supprot-mail {
+          width: 32px;
+          height: 34px; } }
+      @media (max-width: 375px) {
+        .support-container .support-item .supprot-mail {
+          width: 29px;
+          height: 29px; } }
+      @media (max-width: 360px) {
+        .support-container .support-item .supprot-mail {
+          width: 28px;
+          height: 29px; } }
+    .support-container .support-item .supprot-skype {
+      width: 81px;
+      height: 81px; }
+      @media (max-width: 1024px) {
+        .support-container .support-item .supprot-skype {
+          width: 78px;
+          height: 78px; } }
+      @media (max-width: 812px) {
+        .support-container .support-item .supprot-skype {
+          width: 62px;
+          height: 62px; } }
+      @media (max-width: 768px) {
+        .support-container .support-item .supprot-skype {
+          width: 59px;
+          height: 59px; } }
+      @media (max-width: 414px) {
+        .support-container .support-item .supprot-skype {
+          width: 32px;
+          height: 32px; } }
+      @media (max-width: 375px) {
+        .support-container .support-item .supprot-skype {
+          width: 29px;
+          height: 29px; } }
+      @media (max-width: 360px) {
+        .support-container .support-item .supprot-skype {
+          width: 28px;
+          height: 27px; } }
+    .support-container .support-item .supprot-zalo {
+      width: 76px;
+      height: 76px; }
+      @media (max-width: 1024px) {
+        .support-container .support-item .supprot-zalo {
+          width: 73px;
+          height: 73px; } }
+      @media (max-width: 812px) {
+        .support-container .support-item .supprot-zalo {
+          width: 58px;
+          height: 58px; } }
+      @media (max-width: 768px) {
+        .support-container .support-item .supprot-zalo {
+          width: 55px;
+          height: 55px; } }
+      @media (max-width: 414px) {
+        .support-container .support-item .supprot-zalo {
+          width: 30px;
+          height: 30px; } }
+      @media (max-width: 375px) {
+        .support-container .support-item .supprot-zalo {
+          width: 28px;
+          height: 27px; } }
+      @media (max-width: 360px) {
+        .support-container .support-item .supprot-zalo {
+          width: 26px;
+          height: 26px; } }
+
+.support-item {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  padding: 8px 20px;
+  text-align: center;
+  border: 1px solid #212529e0;
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+  z-index: 0; }
+
+.support-item i {
+  padding-right: 8px; }
+
+.support-item::before {
+  position: absolute;
+  content: "";
+  background: #2d2d2d;
+  transition-duration: 0.3s;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  bottom: auto;
+  left: auto;
+  width: 50%;
+  height: 100%;
+  opacity: 1; }
+
+.support-item:hover::before {
+  width: 0px;
+  height: 100%;
+  opacity: 1; }
+
+.support-item {
+  color: black;
+  transition: color 0.3s ease 0s, background 0s ease 0.3s; }
+
+.support-item:hover {
+  background: transparent;
+  color: white;
+  transition: color 0.3s ease 0s, background 0s ease 0s; }
+
+.support-item::after {
+  position: absolute;
+  content: "";
+  background: #2d2d2d;
+  transition-duration: 0.3s;
+  z-index: -1;
+  top: 0px;
+  right: auto;
+  bottom: auto;
+  left: 0px;
+  width: 50%;
+  height: 100%;
+  opacity: 1; }
+
+.support-item:hover::after {
+  width: 0px; }
+
+/* ---end support item--- */
+/* ---start casino promotion--- */
+.casino-promotion-container {
+  padding: 35px; }
+  @media (max-width: 812px) {
+    .casino-promotion-container {
+      padding: 30px; } }
+  @media (max-width: 768px) {
+    .casino-promotion-container {
+      padding: 25px; } }
+  @media (max-width: 425px) {
+    .casino-promotion-container {
+      padding: 15px; } }
+
+.nav a,
+.nav label {
+  display: block;
+  padding: .85rem;
+  color: #fff;
+  background-color: #383838;
+  box-shadow: inset 0 -1px #1d1d1d;
+  transition: all .25s ease-in;
+  font-size: 40px;
+  padding: 20px 35px;
+  /*margin-bottom: 35px;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  @media (max-width: 1024px) {
+    .nav a,
+    .nav label {
+      padding: 17px 30px;
+      /*margin-bottom: 30px;*/ } }
+  @media (max-width: 812px) {
+    .nav a,
+    .nav label {
+      padding: 7px 25px;
+      /*margin-bottom: 20px;*/
+      font-size: 30px; } }
+  @media (max-width: 768px) {
+    .nav a,
+    .nav label {
+      padding: 15px 25px;
+      /*margin-bottom: 20px;*/
+      font-size: 30px; } }
+  @media (max-width: 425px) {
+    .nav a,
+    .nav label {
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      font-size: 16px; } }
+  @media (max-width: 414px) {
+    .nav a,
+    .nav label {
+      padding: 8px 15px;
+      /*margin-bottom: 10px;*/
+      font-size: 15px; } }
+  @media (max-width: 375px) {
+    .nav a,
+    .nav label {
+      padding: 8px 15px;
+      /*margin-bottom: 10px;*/
+      font-size: 15px; } }
+  .nav a:focus, .nav a:hover,
+  .nav label:focus,
+  .nav label:hover {
+    color: #f5e091; }
+
+.nav label {
+  cursor: pointer; }
+
+/**
+ * Styling first level lists items
+ */
+.group-list a,
+.group-list label {
+  padding-left: 2rem;
+  background: #252525;
+  box-shadow: inset 0 -1px #373737; }
+  .group-list a:focus, .group-list a:hover,
+  .group-list label:focus,
+  .group-list label:hover {
+    background: #131313; }
+
+/**
+ * Styling second level list items
+ */
+.sub-group-list a,
+.sub-group-list label {
+  padding-left: 4rem;
+  background: #353535;
+  box-shadow: inset 0 -1px #474747; }
+  .sub-group-list a:focus, .sub-group-list a:hover,
+  .sub-group-list label:focus,
+  .sub-group-list label:hover {
+    background: #232323; }
+
+/**
+ * Styling third level list items
+ */
+.sub-sub-group-list a,
+.sub-sub-group-list label {
+  padding-left: 6rem;
+  background: #454545;
+  box-shadow: inset 0 -1px #575757; }
+  .sub-sub-group-list a:focus, .sub-sub-group-list a:hover,
+  .sub-sub-group-list label:focus,
+  .sub-sub-group-list label:hover {
+    background: #333333; }
+
+/**
+ * Hide nested lists
+ */
+.group-list,
+.sub-group-list,
+.sub-sub-group-list {
+  height: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s ease-in-out; }
+
+.nav__list input[type=checkbox]:checked + label + ul {
+  max-height: 1000px; }
+
+label > span {
+  float: right;
+  transition: transform .65s ease; }
+  @media (max-width: 1024px) {
+    label > span img {
+      width: 72px;
+      height: auto; } }
+  @media (max-width: 812px) {
+    label > span img {
+      width: 57px;
+      height: auto; } }
+  @media (max-width: 768px) {
+    label > span img {
+      width: 54px;
+      height: auto; } }
+  @media (max-width: 425px) {
+    label > span img {
+      width: 30px;
+      height: auto; } }
+  @media (max-width: 414px) {
+    label > span img {
+      width: 30px;
+      height: auto; } }
+  @media (max-width: 375px) {
+    label > span img {
+      width: 27px;
+      height: auto; } }
+
+.nav__list input[type=checkbox]:checked + label > span {
+  transform: rotate(180deg); }
+
+/* ---end casino promotion--- */
+/* ---start casino messenger log--- */
+.casino-messenger-log {
+  background: #000;
+  padding: 40px; }
+  @media (max-width: 768px) {
+    .casino-messenger-log {
+      padding: 20px; } }
+  @media (max-width: 480px) {
+    .casino-messenger-log {
+      padding: 15px; } }
+  .casino-messenger-log .tabs .tabs__link {
+    width: 50%;
+    font-size: 45px;
+    color: #8b8b8b;
+    border-bottom: 3px solid #8b8b8b;
+    text-transform: none; }
+    .casino-messenger-log .tabs .tabs__link:hover {
+      color: #ddc051;
+      border-bottom: 3px solid #ddc051; }
+    @media (max-width: 768px) {
+      .casino-messenger-log .tabs .tabs__link {
+        font-size: 33px; } }
+    @media (max-width: 480px) {
+      .casino-messenger-log .tabs .tabs__link {
+        font-size: 20px;
+        margin-right: 10px !important; } }
+    @media (max-width: 414px) {
+      .casino-messenger-log .tabs .tabs__link {
+        font-size: 16px;
+        margin-right: 10px !important; } }
+  .casino-messenger-log .tabs .casino-messenger-is--active {
+    color: #f5e091;
+    border-bottom: 3px solid #f5e091; }
+  .casino-messenger-log .tabs .casino-messenger__body {
+    padding: 0;
+    margin: 0;
+    color: #fff; }
+    .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn {
+      display: flex;
+      justify-content: space-between; }
+      .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn li {
+        width: 25%;
+        text-align: center;
+        height: 130px;
+        border-radius: 10px;
+        line-height: 130px;
+        font-size: 45px; }
+        @media (max-width: 1024px) {
+          .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn li {
+            font-size: 43px;
+            height: 120px;
+            line-height: 120px; } }
+        @media (max-width: 768px) {
+          .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn li {
+            font-size: 32px;
+            height: 90px;
+            line-height: 90px; } }
+        @media (max-width: 414px) {
+          .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn li {
+            font-size: 18px;
+            height: 50px;
+            line-height: 50px; } }
+        @media (max-width: 375px) {
+          .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn li {
+            font-size: 16px;
+            height: 45px;
+            line-height: 45px; } }
+        .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn li:hover {
+          background: #e0ce3b; }
+          .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn li:hover a {
+            color: #ff0000; }
+      .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn .notification-select-all {
+        margin-right: 20px;
+        background: #fe4848;
+        background: -webkit-linear-gradient(to right, #fe4848, #e21919);
+        background: linear-gradient(to right, #fe4848, #e21919); }
+        @media (max-width: 480px) {
+          .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn .notification-select-all {
+            margin-right: 10px; } }
+        .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn .notification-select-all a {
+          color: #fff; }
+      .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn .notification-cancel {
+        margin-right: 20px;
+        color: #000;
+        background: #fff3c9;
+        background: -webkit-linear-gradient(to right, #fff3c9, #f6e297);
+        background: linear-gradient(to right, #fff3c9, #f6e297); }
+        .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn .notification-cancel a {
+          color: #000; }
+        @media (max-width: 480px) {
+          .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn .notification-cancel {
+            margin-right: 10px; } }
+      .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn .notification-delete {
+        margin-right: 20px;
+        background: #555555; }
+        .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn .notification-delete a {
+          color: #fff; }
+        @media (max-width: 480px) {
+          .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn .notification-delete {
+            margin-right: 10px; } }
+      .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn .notification-message {
+        background: #fff3c9;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fff3c9, #f6e297);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fff3c9, #f6e297);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+        .casino-messenger-log .tabs .casino-messenger__body ul.notification-btn .notification-message a {
+          color: #000; }
+  .casino-messenger-log .tabs .casino-messenger-accordion__header button {
+    background: #2d2d2d !important;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 40px;
+    /*height: 140px;*/
+    padding: 40px;
+    margin-bottom: 45px; }
+    @media (max-width: 480px) {
+      .casino-messenger-log .tabs .casino-messenger-accordion__header button img {
+        width: 38px;
+        height: 22px; } }
+    @media (max-width: 414px) {
+      .casino-messenger-log .tabs .casino-messenger-accordion__header button img {
+        width: 30px;
+        height: 17px; } }
+    @media (max-width: 375px) {
+      .casino-messenger-log .tabs .casino-messenger-accordion__header button img {
+        width: 20px;
+        height: 10px; } }
+    @media (max-width: 1024px) {
+      .casino-messenger-log .tabs .casino-messenger-accordion__header button {
+        font-size: 38px; } }
+    @media (max-width: 480px) {
+      .casino-messenger-log .tabs .casino-messenger-accordion__header button {
+        font-size: 18px;
+        padding: 15px;
+        margin-bottom: 20px; } }
+    @media (max-width: 414px) {
+      .casino-messenger-log .tabs .casino-messenger-accordion__header button {
+        margin-bottom: 15px; } }
+  .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box {
+    display: inherit; }
+    .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box .casino-messenger-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 75px;
+      border-bottom: 3px solid #8b8b8b; }
+      @media (max-width: 480px) {
+        .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box .casino-messenger-top {
+          padding-bottom: 35px; } }
+      @media (max-width: 414px) {
+        .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box .casino-messenger-top {
+          padding-bottom: 30px;
+          font-size: 13px; } }
+      .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box .casino-messenger-top img.messenger-log-check {
+        width: 115px;
+        height: 115px;
+        border: 3px solid #b7b7b7;
+        padding: 10px;
+        border-radius: 15px; }
+        @media (max-width: 768px) {
+          .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box .casino-messenger-top img.messenger-log-check {
+            width: 90px;
+            height: 90px; } }
+        @media (max-width: 414px) {
+          .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box .casino-messenger-top img.messenger-log-check {
+            width: 45px;
+            height: 45px;
+            border-radius: 10px; } }
+        @media (max-width: 375px) {
+          .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box .casino-messenger-top img.messenger-log-check {
+            width: 40px;
+            height: 40px; } }
+    .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box .casino-messenger-bottom {
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 33px;
+      padding-top: 40px; }
+      @media (max-width: 480px) {
+        .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box .casino-messenger-bottom {
+          padding-top: 15px; } }
+      @media (max-width: 1024px) {
+        .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box .casino-messenger-bottom p {
+          font-size: 31px; } }
+      @media (max-width: 414px) {
+        .casino-messenger-log .tabs .casino-messenger-accordion__header .casino-arcordion-box .casino-messenger-bottom p {
+          font-size: 13px; } }
+  .casino-messenger-log .tabs .casino-messenger-accordion__dropdown {
+    border-bottom: none; }
+    .casino-messenger-log .tabs .casino-messenger-accordion__dropdown .accordion__body {
+      background: #2d2d2d !important;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 40px;
+      margin-bottom: 45px; }
+      @media (max-width: 1024px) {
+        .casino-messenger-log .tabs .casino-messenger-accordion__dropdown .accordion__body {
+          font-size: 32px; } }
+      @media (max-width: 768px) {
+        .casino-messenger-log .tabs .casino-messenger-accordion__dropdown .accordion__body {
+          font-size: 24px; } }
+      @media (max-width: 414px) {
+        .casino-messenger-log .tabs .casino-messenger-accordion__dropdown .accordion__body {
+          font-size: 16px;
+          margin-bottom: 15px; } }
+
+/* ---end casino messenger log--- */
+/* ---start casino transaction-report--- */
+.casino-transaction-report {
+  padding-bottom: 150px; }
+  @media (max-width: 480px) {
+    .casino-transaction-report {
+      padding-bottom: 50px; } }
+
+.transaction-dropdown:after {
+  top: 100%;
+  left: 85%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(54, 54, 54, 0);
+  border-top-color: #363636;
+  border-width: 30px;
+  margin-left: -30px; }
+  @media (max-width: 414px) {
+    .transaction-dropdown:after {
+      left: 94%;
+      border-width: 15px; } }
+
+.transaction-dropdown {
+  bottom: 280px;
+  position: relative;
+  right: 40px;
+  width: 500px;
+  background: #363636 !important;
+  border-radius: 10px;
+  padding: 30px 0 30px 20px !important; }
+  @media (max-width: 1024px) {
+    .transaction-dropdown {
+      bottom: 240px; } }
+  @media (max-width: 768px) {
+    .transaction-dropdown {
+      bottom: 200px;
+      right: 20px; } }
+  @media (max-width: 414px) {
+    .transaction-dropdown {
+      width: 191px;
+      padding: 10px !important;
+      bottom: 110px; } }
+  @media (max-width: 375px) {
+    .transaction-dropdown {
+      width: 173px;
+      padding: 10px !important;
+      bottom: 100px; } }
+  .transaction-dropdown .dropdown__item {
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 33px;
+    /*justify-content: space-between;*/
+    padding: 0 0 25px 0; }
+    @media (max-width: 1024px) {
+      .transaction-dropdown .dropdown__item {
+        font-size: 30px; } }
+    @media (max-width: 414px) {
+      .transaction-dropdown .dropdown__item {
+        font-size: 12px;
+        padding: 0 0 10px 0; } }
+    @media (max-width: 375px) {
+      .transaction-dropdown .dropdown__item {
+        font-size: 11px;
+        padding: 0 0 10px 0; } }
+    .transaction-dropdown .dropdown__item:last-child {
+      padding-bottom: 0; }
+    .transaction-dropdown .dropdown__item img {
+      margin-right: 20px; }
+      @media (max-width: 1024px) {
+        .transaction-dropdown .dropdown__item img {
+          margin-right: 15px; } }
+      @media (max-width: 375px) {
+        .transaction-dropdown .dropdown__item img {
+          margin-right: 5px; } }
+    @media (max-width: 1024px) {
+      .transaction-dropdown .dropdown__item .transction-card {
+        width: 78px;
+        height: auto !important; } }
+    @media (max-width: 414px) {
+      .transaction-dropdown .dropdown__item .transction-card {
+        width: 32px;
+        height: auto !important; } }
+    @media (max-width: 375px) {
+      .transaction-dropdown .dropdown__item .transction-card {
+        width: 30px;
+        height: auto !important; } }
+    @media (max-width: 320px) {
+      .transaction-dropdown .dropdown__item .transction-card {
+        width: 25px;
+        height: auto !important; } }
+    @media (max-width: 1024px) {
+      .transaction-dropdown .dropdown__item .transction-user {
+        width: 91px;
+        height: auto !important; } }
+    @media (max-width: 414px) {
+      .transaction-dropdown .dropdown__item .transction-user {
+        width: 38px;
+        height: auto !important; } }
+    @media (max-width: 375px) {
+      .transaction-dropdown .dropdown__item .transction-user {
+        width: 33px;
+        height: auto !important; } }
+    @media (max-width: 320px) {
+      .transaction-dropdown .dropdown__item .transction-user {
+        width: 27px;
+        height: auto !important; } }
+    @media (max-width: 1024px) {
+      .transaction-dropdown .dropdown__item .transction-block {
+        width: 78px;
+        height: auto !important; } }
+    @media (max-width: 414px) {
+      .transaction-dropdown .dropdown__item .transction-block {
+        width: 32px;
+        height: auto !important; } }
+    @media (max-width: 375px) {
+      .transaction-dropdown .dropdown__item .transction-block {
+        width: 29px;
+        height: auto !important; } }
+    @media (max-width: 320px) {
+      .transaction-dropdown .dropdown__item .transction-block {
+        width: 25px;
+        height: auto !important; } }
+    @media (max-width: 1024px) {
+      .transaction-dropdown .dropdown__item .transction-bank {
+        width: 77px;
+        height: auto !important; } }
+    @media (max-width: 414px) {
+      .transaction-dropdown .dropdown__item .transction-bank {
+        width: 32px;
+        height: auto !important; } }
+    @media (max-width: 375px) {
+      .transaction-dropdown .dropdown__item .transction-bank {
+        width: 29px;
+        height: auto !important; } }
+    @media (max-width: 320px) {
+      .transaction-dropdown .dropdown__item .transction-bank {
+        width: 25px;
+        height: auto !important; } }
+
+/* ---end casino transaction-report-- */
+/* ---start deposit widthdrawal-- */
+/* ---end deposit widthdrawal-- */
+/* ---start sign up-- */
+.sign-up-container {
+  padding: 75px;
+  background: #000; }
+  @media (max-width: 768px) {
+    .sign-up-container {
+      padding: 40px; } }
+  @media (max-width: 480px) {
+    .sign-up-container {
+      padding: 30px; } }
+  .sign-up-container .form-group {
+    background: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid #707070;
+    border-radius: 10px;
+    margin-bottom: 0;
+    height: 140px; }
+    @media (max-width: 1024px) {
+      .sign-up-container .form-group {
+        height: 135px; } }
+    @media (max-width: 768px) {
+      .sign-up-container .form-group {
+        height: 100px; } }
+    @media (max-width: 480px) {
+      .sign-up-container .form-group {
+        height: 55px; } }
+    .sign-up-container .form-group input {
+      border: none;
+      outline: none;
+      background: #252525;
+      font-size: 45px;
+      padding-left: 75px;
+      box-shadow: none;
+      color: #fff; }
+      @media (max-width: 1024px) {
+        .sign-up-container .form-group input {
+          padding-left: 70px;
+          font-size: 43px; } }
+      @media (max-width: 768px) {
+        .sign-up-container .form-group input {
+          padding-left: 55px;
+          font-size: 33px; } }
+      @media (max-width: 414px) {
+        .sign-up-container .form-group input {
+          padding-left: 30px;
+          font-size: 18px; } }
+      @media (max-width: 375px) {
+        .sign-up-container .form-group input {
+          padding-left: 25px;
+          font-size: 16px; } }
+    .sign-up-container .form-group input::placeholder {
+      color: #fff;
+      opacity: 1;
+      /* Firefox */ }
+    .sign-up-container .form-group input:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #fff; }
+    .sign-up-container .form-group input::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #fff; }
+    @media (max-width: 1024px) {
+      .sign-up-container .form-group img {
+        width: 77px;
+        height: auto; } }
+    @media (max-width: 768px) {
+      .sign-up-container .form-group img {
+        width: 58px;
+        height: auto; } }
+    @media (max-width: 480px) {
+      .sign-up-container .form-group img {
+        width: 32px;
+        height: auto; } }
+    @media (max-width: 480px) {
+      .sign-up-container .form-group img {
+        width: 29px;
+        height: auto; } }
+  .sign-up-container .sign-up-form .sign-up-btn {
+    background: #ee9ca7;
+    background: -webkit-linear-gradient(to right, #f6e399, #fff4cb);
+    background: linear-gradient(to right, #f6e399, #fff4cb);
+    border-radius: 10px;
+    text-align: center;
+    border: 3px solid transparent;
+    height: 140px;
+    font-size: 22px;
+    color: #000;
+    font-weight: bold;
+    border: 3px solid transparent;
+    text-transform: none; }
+    @media (max-width: 1024px) {
+      .sign-up-container .sign-up-form .sign-up-btn {
+        height: 135px; } }
+    @media (max-width: 768px) {
+      .sign-up-container .sign-up-form .sign-up-btn {
+        height: 100px; } }
+    @media (max-width: 480px) {
+      .sign-up-container .sign-up-form .sign-up-btn {
+        height: 55px; } }
+  .sign-up-container p {
+    font-size: 45px;
+    color: #fff;
+    margin: 0;
+    padding: 70px 0; }
+    @media (max-width: 768px) {
+      .sign-up-container p {
+        padding: 50px 0; } }
+    @media (max-width: 414px) {
+      .sign-up-container p {
+        padding: 30px 0;
+        font-size: 18px; } }
+  .sign-up-container .sign-up-confirm {
+    background: #ee9ca7;
+    background: -webkit-linear-gradient(to right, #f6e399, #fff4cb);
+    background: linear-gradient(to right, #f6e399, #fff4cb);
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    height: 140px;
+    line-height: 140px;
+    margin-top: 90px;
+    font-size: 50px;
+    color: #000; }
+    @media (max-width: 768px) {
+      .sign-up-container .sign-up-confirm {
+        margin-top: 70px; } }
+    @media (max-width: 414px) {
+      .sign-up-container .sign-up-confirm {
+        margin-top: 40px;
+        height: 55px;
+        line-height: 55px;
+        margin-top: 40px;
+        font-size: 20px; } }
+
+/* ---end sign up-- */
+/* ---start casino my account-- */
+.casino-my-acc ount p {
+  color: #f5e091;
+  text-align: center;
+  font-size: 37px;
+  padding-bottom: 20px; }
+  @media (max-width: 1024px) {
+    .casino-my-acc ount p {
+      font-size: 35px; } }
+  @media (max-width: 768px) {
+    .casino-my-acc ount p {
+      font-size: 27px; } }
+  @media (max-width: 414px) {
+    .casino-my-acc ount p {
+      font-size: 15px; } }
+  @media (max-width: 375px) {
+    .casino-my-acc ount p {
+      font-size: 13px; } }
+.casino-my-acc ount .casino-account-box {
+  margin-bottom: 25px; }
+  @media (max-width: 414px) {
+    .casino-my-acc ount .casino-account-box {
+      margin-bottom: 10px; } }
+  .casino-my-acc ount .casino-account-box .casino-account-items {
+    background: #363636;
+    border-radius: 10px;
+    height: 110px;
+    line-height: 110px;
+    width: 100%; }
+    .casino-my-acc ount .casino-account-box .casino-account-items:not(:last-child) {
+      margin-right: 20px; }
+      @media (max-width: 414px) {
+        .casino-my-acc ount .casino-account-box .casino-account-items:not(:last-child) {
+          margin-right: 10px; } }
+    .casino-my-acc ount .casino-account-box .casino-account-items p {
+      color: #fff;
+      text-align: center;
+      font-size: 37px; }
+      @media (max-width: 768px) {
+        .casino-my-acc ount .casino-account-box .casino-account-items p {
+          font-size: 25px; } }
+      @media (max-width: 414px) {
+        .casino-my-acc ount .casino-account-box .casino-account-items p {
+          font-size: 14px; } }
+    .casino-my-acc ount .casino-account-box .casino-account-items .form-group .casino-deposit-form {
+      height: 110px;
+      border-radius: 15px !important;
+      font-size: 37px !important; }
+      @media (max-width: 414px) {
+        .casino-my-acc ount .casino-account-box .casino-account-items .form-group .casino-deposit-form {
+          height: 38px;
+          border-radius: 10px !important;
+          font-size: 14px !important; } }
+    @media (max-width: 414px) {
+      .casino-my-acc ount .casino-account-box .casino-account-items {
+        height: 40px;
+        line-height: 40px; } }
+
+/* ---end casino my account-- */
+/* ---start casino change password-- */
+@media (max-width: 768px) {
+  .casino-change-password {
+    /*height: 1024px;*/
+    padding: 30px; } }
+@media (max-width: 480px) {
+  .casino-change-password {
+    padding: 20px; } }
+@media (max-width: 375px) {
+  .casino-change-password {
+    padding: 15px; } }
+.casino-change-password input {
+  height: 120px;
+  border-radius: 15px;
+  margin-bottom: 45px;
+  background: #363636; }
+  @media (max-width: 768px) {
+    .casino-change-password input {
+      margin-bottom: 35px;
+      height: 83px; } }
+  @media (max-width: 480px) {
+    .casino-change-password input {
+      margin-bottom: 20px;
+      height: 50px; } }
+  @media (max-width: 375px) {
+    .casino-change-password input {
+      margin-bottom: 15px;
+      height: 40px; } }
+.casino-change-password input[type="text"] {
+  font-size: 37px; }
+  @media (max-width: 1024px) {
+    .casino-change-password input[type="text"] {
+      font-size: 35px; } }
+  @media (max-width: 768px) {
+    .casino-change-password input[type="text"] {
+      font-size: 25px; } }
+  @media (max-width: 480px) {
+    .casino-change-password input[type="text"] {
+      font-size: 16px; } }
+  @media (max-width: 375px) {
+    .casino-change-password input[type="text"] {
+      font-size: 13px; } }
+.casino-change-password .casino-password-box {
+  display: flex;
+  justify-content: space-between; }
+  .casino-change-password .casino-password-box .casino-password-item {
+    height: 120px;
+    width: 450px;
+    display: block;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 10px;
+    font-size: 37px;
+    color: #000; }
+    @media (max-width: 1024px) {
+      .casino-change-password .casino-password-box .casino-password-item {
+        font-size: 35px; } }
+    @media (max-width: 768px) {
+      .casino-change-password .casino-password-box .casino-password-item {
+        width: 330px;
+        height: 85px;
+        line-height: 85px;
+        font-size: 25px; } }
+    @media (max-width: 414px) {
+      .casino-change-password .casino-password-box .casino-password-item {
+        width: 150px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 14px; } }
+    @media (max-width: 375px) {
+      .casino-change-password .casino-password-box .casino-password-item {
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 13px; } }
+  .casino-change-password .casino-password-box .hbtn {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid white;
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+    z-index: 0; }
+  .casino-change-password .casino-password-box .hbtn i {
+    padding-right: 8px; }
+  .casino-change-password .casino-password-box .casino-password-change::before {
+    position: absolute;
+    content: "";
+    background: #fff4ca;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5e193, #fff4ca);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5e193, #fff4ca);
+    transition-duration: 0.3s;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    opacity: 1; }
+  .casino-change-password .casino-password-box .casino-password-cancel::before {
+    position: absolute;
+    content: "";
+    background: red;
+    transition-duration: 0.3s;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background: #b7b7b7; }
+  .casino-change-password .casino-password-box .casino-password-item:hover::before {
+    width: 0px;
+    height: 100%;
+    opacity: 1; }
+  .casino-change-password .casino-password-box .casino-password-item:hover {
+    background: transparent;
+    color: white;
+    transition: color 0.3s ease 0s, background 0s ease 0s; }
+
+/* ---end casino change password-- */
+/* ---start casino deposit widthdrawal-- */
+.deposit-widthdrawal-dropdown:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #363636;
+  border-width: 30px;
+  margin-left: -30px; }
+  @media (max-width: 414px) {
+    .deposit-widthdrawal-dropdown:after {
+      left: 52%;
+      border-width: 20px; } }
+
+.deposit-widthdrawal-dropdown {
+  position: relative;
+  bottom: 280px;
+  left: 0;
+  width: 1015px;
+  margin: 0 auto;
+  display: flex;
+  right: 0;
+  justify-content: space-between;
+  padding: 0 !important;
+  background: #363636 !important;
+  border-radius: 10px; }
+  .deposit-widthdrawal-dropdown .dropdown__item {
+    border-bottom: none !important; }
+    .deposit-widthdrawal-dropdown .dropdown__item .deposit-widthdrawal__item-left {
+      background: url(../img/deposit-widthdrawal-1.png) no-repeat center center;
+      width: 111px;
+      height: 103px;
+      margin: 0 auto 30px;
+      background-size: cover; }
+      @media (max-width: 768px) {
+        .deposit-widthdrawal-dropdown .dropdown__item .deposit-widthdrawal__item-left {
+          width: 80px;
+          height: 74px; } }
+      @media (max-width: 414px) {
+        .deposit-widthdrawal-dropdown .dropdown__item .deposit-widthdrawal__item-left {
+          width: 43px;
+          height: 40px;
+          margin: 0 auto 15px; } }
+      @media (max-width: 375px) {
+        .deposit-widthdrawal-dropdown .dropdown__item .deposit-widthdrawal__item-left {
+          margin: 0 auto 10px; } }
+    .deposit-widthdrawal-dropdown .dropdown__item span {
+      color: #fff;
+      font-size: 36px; }
+      @media (max-width: 768px) {
+        .deposit-widthdrawal-dropdown .dropdown__item span {
+          font-size: 25px; } }
+      @media (max-width: 414px) {
+        .deposit-widthdrawal-dropdown .dropdown__item span {
+          font-size: 13px; } }
+    .deposit-widthdrawal-dropdown .dropdown__item .deposit-widthdrawal__item-right {
+      background: url(../img/deposit-widthdrawal-2.png) no-repeat center center;
+      width: 111px;
+      height: 103px;
+      margin: 0 auto 30px;
+      background-size: cover; }
+      @media (max-width: 768px) {
+        .deposit-widthdrawal-dropdown .dropdown__item .deposit-widthdrawal__item-right {
+          width: 80px;
+          height: 74px; } }
+      @media (max-width: 414px) {
+        .deposit-widthdrawal-dropdown .dropdown__item .deposit-widthdrawal__item-right {
+          width: 43px;
+          height: 40px;
+          margin: 0 auto 15px; } }
+      @media (max-width: 375px) {
+        .deposit-widthdrawal-dropdown .dropdown__item .deposit-widthdrawal__item-right {
+          margin: 0 auto 10px; } }
+    .deposit-widthdrawal-dropdown .dropdown__item:hover .deposit-widthdrawal__item-left {
+      background: url(../img/deposit-widthdrawal-hover-1.png) no-repeat center center;
+      width: 111px;
+      height: 103px;
+      margin: 0 auto 30px;
+      background-size: cover; }
+      @media (max-width: 768px) {
+        .deposit-widthdrawal-dropdown .dropdown__item:hover .deposit-widthdrawal__item-left {
+          width: 80px;
+          height: 74px; } }
+      @media (max-width: 414px) {
+        .deposit-widthdrawal-dropdown .dropdown__item:hover .deposit-widthdrawal__item-left {
+          width: 43px;
+          height: 40px;
+          margin: 0 auto 15px; } }
+      @media (max-width: 375px) {
+        .deposit-widthdrawal-dropdown .dropdown__item:hover .deposit-widthdrawal__item-left {
+          margin: 0 auto 10px; } }
+    .deposit-widthdrawal-dropdown .dropdown__item:hover .deposit-widthdrawal__item-right {
+      background: url(../img/deposit-widthdrawal-hover-2.png) no-repeat center center;
+      width: 111px;
+      height: 103px;
+      margin: 0 auto 30px;
+      background-size: cover; }
+      @media (max-width: 768px) {
+        .deposit-widthdrawal-dropdown .dropdown__item:hover .deposit-widthdrawal__item-right {
+          width: 80px;
+          height: 74px; } }
+      @media (max-width: 414px) {
+        .deposit-widthdrawal-dropdown .dropdown__item:hover .deposit-widthdrawal__item-right {
+          width: 43px;
+          height: 40px;
+          margin: 0 auto 15px; } }
+      @media (max-width: 375px) {
+        .deposit-widthdrawal-dropdown .dropdown__item:hover .deposit-widthdrawal__item-right {
+          margin: 0 auto 10px; } }
+    .deposit-widthdrawal-dropdown .dropdown__item:hover span {
+      color: #f5e193; }
+  .deposit-widthdrawal-dropdown .dropdown__item.active:before {
+    content: "";
+    display: block;
+    border-right: 2px solid #c1c1c1;
+    height: 180px;
+    right: 50%;
+    top: 20px;
+    position: absolute; }
+    @media (max-width: 768px) {
+      .deposit-widthdrawal-dropdown .dropdown__item.active:before {
+        height: 130px; } }
+    @media (max-width: 480px) {
+      .deposit-widthdrawal-dropdown .dropdown__item.active:before {
+        height: 80px;
+        top: 10px; } }
+  @media (max-width: 1024px) {
+    .deposit-widthdrawal-dropdown {
+      width: 960px;
+      bottom: 240px; } }
+  @media (max-width: 768px) {
+    .deposit-widthdrawal-dropdown {
+      width: 720px;
+      bottom: 200px; } }
+  @media (max-width: 414px) {
+    .deposit-widthdrawal-dropdown {
+      width: 390px;
+      bottom: 120px; } }
+  @media (max-width: 375px) {
+    .deposit-widthdrawal-dropdown {
+      width: 350px;
+      bottom: 110px; } }
+
+/* ---end casino deposit widthdrawal-- */
+.casino-deposit .wizard {
+  background: #d1d1d1; }
+.casino-deposit .wizard .nav-tabs {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 0;
+  border-bottom-color: #e0e0e0;
+  background: #101010; }
+.casino-deposit .wizard > div.wizard-inner {
+  position: relative; }
+.casino-deposit .wizard .nav-tabs > li.active > a,
+.casino-deposit .wizard .nav-tabs > li.active > a:hover,
+.casino-deposit .wizard .nav-tabs > li.active > a:focus {
+  color: #555555;
+  cursor: default;
+  border: 0;
+  border-bottom-color: transparent; }
+.casino-deposit .round-tab {
+  width: 91px;
+  height: 91px;
+  line-height: 91px;
+  display: inline-block;
+  border-radius: 100px;
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  font-size: 25px; }
+.casino-deposit .round-tab:after {
+  content: '';
+  display: inline-block;
+  width: 170px;
+  border-bottom: 15px solid #fff;
+  position: absolute;
+  bottom: 40%;
+  left: 100%; }
+.casino-deposit .nav-tabs-item4 .round-tab:after {
+  border: none; }
+.casino-deposit .wizard-circle {
+  width: 60px;
+  height: 60px;
+  background: #f5e091;
+  position: absolute;
+  left: 13px;
+  top: 13px;
+  border-radius: 50%; }
+.casino-deposit .round-tab i {
+  color: #555555; }
+.casino-deposit .wizard li.active .round-tab i {
+  color: #5bc0de; }
+.casino-deposit .wizard .nav-tabs > li {
+  width: 25%; }
+.casino-deposit .wizard .nav-tabs-item1:after {
+  content: "Transfer Mode";
+  opacity: 1;
+  margin: 0 auto;
+  bottom: 0px;
+  border: 5px solid transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 33px; }
+.casino-deposit .wizard .nav-tabs-item2:after {
+  content: "Detail ";
+  opacity: 1;
+  margin: 0 auto;
+  bottom: 0px;
+  border: 5px solid transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 33px; }
+.casino-deposit .wizard .nav-tabs-item3:after {
+  content: "Promotions ";
+  opacity: 1;
+  margin: 0 auto;
+  bottom: 0px;
+  border: 5px solid transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 33px; }
+.casino-deposit .wizard .nav-tabs-item4:after {
+  content: "Summary";
+  opacity: 1;
+  margin: 0 auto;
+  bottom: 0px;
+  border: 5px solid transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 33px; }
+.casino-deposit .wizard .nav-tabs > li a {
+  width: 91px;
+  height: 91px;
+  margin: 0 auto;
+  border-radius: 100%;
+  padding: 0;
+  margin-bottom: 25px;
+  border: none !important; }
+.casino-deposit .wizard li.active:after {
+  content: "Transfer Mode";
+  opacity: 1;
+  margin: 0 auto;
+  bottom: 0px;
+  border: 5px solid transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 33px; }
+.casino-deposit .wizard .nav-tabs > li a:hover {
+  background: transparent; }
+.casino-deposit .wizard .tab-pane {
+  position: relative;
+  padding-top: 50px; }
+.casino-deposit .wizard h3 {
+  margin-top: 0; }
+@media (max-width: 585px) {
+  .casino-deposit .wizard {
+    width: 90%;
+    height: auto !important; }
+  .casino-deposit span.round-tab {
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px; }
+  .casino-deposit .wizard .nav-tabs > li a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px; }
+  .casino-deposit .wizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 35%; } }
+
+/* ---casino-funds-transfer-- */
+.casino-funds-transfer .fund-btn-number {
+  position: absolute;
+  right: 300px; }
+  @media (max-width: 1024px) {
+    .casino-funds-transfer .fund-btn-number {
+      right: 250px; } }
+  @media (max-width: 768px) {
+    .casino-funds-transfer .fund-btn-number {
+      right: 180px; } }
+  @media (max-width: 414px) {
+    .casino-funds-transfer .fund-btn-number {
+      right: 110px; } }
+.casino-funds-transfer .fund-transfer-total {
+  margin-top: 40px; }
+  .casino-funds-transfer .fund-transfer-total p span {
+    padding-left: 25px; }
+    @media (max-width: 768px) {
+      .casino-funds-transfer .fund-transfer-total p span {
+        font-size: 35px; } }
+    @media (max-width: 414px) {
+      .casino-funds-transfer .fund-transfer-total p span {
+        font-size: 20px; } }
+  @media (max-width: 768px) {
+    .casino-funds-transfer .fund-transfer-total p {
+      font-size: 35px; } }
+  @media (max-width: 414px) {
+    .casino-funds-transfer .fund-transfer-total p {
+      font-size: 20px; } }
+.casino-funds-transfer .fund-transfer-input p {
+  font-size: 42px;
+  color: #fff;
+  font-weight: 500; }
+  @media (max-width: 768px) {
+    .casino-funds-transfer .fund-transfer-input p {
+      font-size: 30px; } }
+  @media (max-width: 414px) {
+    .casino-funds-transfer .fund-transfer-input p {
+      font-size: 16px; } }
+  @media (max-width: 375px) {
+    .casino-funds-transfer .fund-transfer-input p {
+      padding-top: 15px; } }
+.casino-funds-transfer .fund-transfer-input input {
+  height: 130px;
+  border-radius: 10px;
+  background: #1c1c1c;
+  font-size: 40px;
+  color: #fff;
+  border: 3px solid #6b6b6b;
+  padding-left: 25px;
+  margin: 45px 0 65px 0; }
+  @media (max-width: 1024px) {
+    .casino-funds-transfer .fund-transfer-input input {
+      height: 90px; } }
+  @media (max-width: 414px) {
+    .casino-funds-transfer .fund-transfer-input input {
+      margin: 20px 0;
+      height: 50px;
+      font-size: 20px; } }
+.casino-funds-transfer .funds-transfer-box {
+  display: flex;
+  justify-content: space-between; }
+  .casino-funds-transfer .funds-transfer-box .funds-transfer-item {
+    height: 120px;
+    width: 485px;
+    display: block;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 10px;
+    font-size: 37px;
+    color: #000;
+    text-align: left; }
+    @media (max-width: 1024px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-item {
+        font-size: 35px;
+        width: 460px; } }
+    @media (max-width: 768px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-item {
+        width: 350px;
+        height: 95px;
+        line-height: 95px;
+        font-size: 25px; } }
+    @media (max-width: 414px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-item {
+        width: 175px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 14px; } }
+    @media (max-width: 375px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-item {
+        width: 160px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 13px; } }
+  .casino-funds-transfer .funds-transfer-box .hbtn {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid white;
+    text-decoration: none;
+    color: #161616;
+    white-space: nowrap;
+    z-index: 0; }
+  .casino-funds-transfer .funds-transfer-box .hbtn i {
+    padding-right: 8px; }
+  .casino-funds-transfer .funds-transfer-box .funds-transfer-play {
+    width: 485px; }
+    @media (max-width: 1024px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-play {
+        width: 457px; } }
+    @media (max-width: 768px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-play {
+        width: 350px; } }
+    @media (max-width: 414px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-play {
+        width: 177px; } }
+    @media (max-width: 375px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-play {
+        width: 160px; } }
+  .casino-funds-transfer .funds-transfer-box .funds-transfer-play::before {
+    position: absolute;
+    content: "";
+    background: #fff4ca;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5e193, #fff4ca);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5e193, #fff4ca);
+    transition-duration: 0.3s;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    opacity: 1; }
+  .casino-funds-transfer .funds-transfer-box .funds-transfer-fun {
+    width: 485px; }
+    @media (max-width: 1024px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-fun {
+        width: 457px; } }
+    @media (max-width: 768px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-fun {
+        width: 350px; } }
+    @media (max-width: 414px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-fun {
+        width: 177px; } }
+    @media (max-width: 375px) {
+      .casino-funds-transfer .funds-transfer-box .funds-transfer-fun {
+        width: 160px; } }
+  .casino-funds-transfer .funds-transfer-box .funds-transfer-fun::before {
+    position: absolute;
+    content: "";
+    background: red;
+    transition-duration: 0.3s;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background: #b7b7b7; }
+  .casino-funds-transfer .funds-transfer-box .funds-transfer-item:hover::before {
+    width: 0px;
+    height: 100%;
+    opacity: 1; }
+  .casino-funds-transfer .funds-transfer-box .funds-transfer-item:hover {
+    background: transparent;
+    color: white;
+    transition: color 0.3s ease 0s, background 0s ease 0s;
+    color: #f5e091; }
+.casino-funds-transfer .funds-transfer-show {
+  padding: 15px;
+  background: #222222;
+  margin-top: 50px;
+  border-radius: 10px; }
+  .casino-funds-transfer .funds-transfer-show .funds-transfer-items {
+    display: flex;
+    align-items: center; }
+    .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-item {
+      width: 45%;
+      height: 110px;
+      display: block;
+      line-height: 110px;
+      background: #3a3a3a;
+      margin: 15px;
+      text-align: left;
+      font-size: 24px;
+      border-radius: 10px; }
+      .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-item:not(:last-child):hover {
+        background: #f5e091;
+        color: #333; }
+      @media (max-width: 768px) {
+        .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-item {
+          height: 90px;
+          margin: 10px 20px 10px 10px;
+          line-height: 90px;
+          font-size: 20px; } }
+      @media (max-width: 414px) {
+        .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-item {
+          height: 60px;
+          margin: 5px;
+          line-height: 60px;
+          font-size: 16px; } }
+      @media (max-width: 375px) {
+        .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-item {
+          height: 40px;
+          margin: 5px;
+          line-height: 40px;
+          font-size: 16px; } }
+      .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-item p {
+        padding-left: 20px; }
+        @media (max-width: 768px) {
+          .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-item p {
+            padding-left: 15px; } }
+        @media (max-width: 480px) {
+          .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-item p {
+            padding-left: 10px; } }
+    .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-item.active {
+      background: #f5e091;
+      color: #333; }
+    .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-arrow {
+      background: transparent;
+      height: 110px;
+      width: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      @media (max-width: 414px) {
+        .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-arrow {
+          height: 60px; } }
+      @media (max-width: 414px) {
+        .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-arrow img {
+          width: 50px;
+          height: auto; } }
+      @media (max-width: 414px) {
+        .casino-funds-transfer .funds-transfer-show .funds-transfer-items .funds-transfer-arrow img {
+          width: 40px;
+          height: auto; } }
+  @media (max-width: 414px) {
+    .casino-funds-transfer .funds-transfer-show {
+      margin-top: 20px;
+      padding: 5px; } }
+.casino-funds-transfer .casino-transfer__body .accordion__button img {
+  width: 54px;
+  height: 30px; }
+.casino-funds-transfer .casino-transfer__body .casino-transfer-accordion__header p {
+  font-size: 30px; }
+  @media (max-width: 768px) {
+    .casino-funds-transfer .casino-transfer__body .casino-transfer-accordion__header p {
+      font-size: 25px; } }
+  @media (max-width: 414px) {
+    .casino-funds-transfer .casino-transfer__body .casino-transfer-accordion__header p {
+      font-size: 13px; } }
+  @media (max-width: 375px) {
+    .casino-funds-transfer .casino-transfer__body .casino-transfer-accordion__header p {
+      font-size: 11px; } }
+@media (max-width: 768px) {
+  .casino-funds-transfer .casino-transfer__body .casino-transfer-accordion__header button {
+    padding: 30px;
+    font-size: 30px; } }
+@media (max-width: 414px) {
+  .casino-funds-transfer .casino-transfer__body .casino-transfer-accordion__header button {
+    padding: 15px;
+    font-size: 16px;
+    margin: 15px 0; } }
+@media (max-width: 768px) {
+  .casino-funds-transfer .casino-transfer__body .casino-transfer-accordion__header img {
+    width: 39px;
+    height: auto; } }
+@media (max-width: 480px) {
+  .casino-funds-transfer .casino-transfer__body .casino-transfer-accordion__header img {
+    width: 25px;
+    height: auto; } }
+@media (max-width: 375px) {
+  .casino-funds-transfer .casino-transfer__body .casino-transfer-accordion__header img {
+    width: 18px;
+    height: auto; } }
+.casino-funds-transfer .casino-transfer-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2d2d2d !important;
+  border-radius: 10px;
+  height: 140px;
+  color: #fff;
+  margin-top: 30px;
+  border-color: #fff !important; }
+  @media (max-width: 768px) {
+    .casino-funds-transfer .casino-transfer-down {
+      height: 95px; } }
+  @media (max-width: 480px) {
+    .casino-funds-transfer .casino-transfer-down {
+      height: 60px;
+      padding: 10px !important; } }
+  @media (max-width: 375px) {
+    .casino-funds-transfer .casino-transfer-down {
+      height: 45px;
+      padding: 10px !important; } }
+  .casino-funds-transfer .casino-transfer-down p {
+    margin-bottom: 0;
+    font-size: 40px; }
+.casino-funds-transfer .fundtransfer-down {
+  padding: 0 0 20px 0;
+  background: #2d2d2d;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px; }
+  .casino-funds-transfer .fundtransfer-down a {
+    color: #fff;
+    font-size: 40px;
+    display: block;
+    height: 140px;
+    line-height: 140px; }
+    @media (max-width: 768px) {
+      .casino-funds-transfer .fundtransfer-down a {
+        font-size: 25px;
+        height: 95px;
+        line-height: 95px; } }
+    @media (max-width: 414px) {
+      .casino-funds-transfer .fundtransfer-down a {
+        font-size: 13px;
+        height: 60px;
+        line-height: 60px; } }
+    @media (max-width: 375px) {
+      .casino-funds-transfer .fundtransfer-down a {
+        font-size: 11px;
+        height: 45px;
+        line-height: 45px; } }
+    .casino-funds-transfer .fundtransfer-down a:hover {
+      color: #f5e091; }
+
+/* ---end casino-funds-transfer-- */
+/* ---start deposit-- */
+#first-accordion, #second-accordion, #third-accordion, #fourth-accordion, #fifth-accordion, #sixth-accordion {
+  border-bottom: 0; }
+  #first-accordion .deposit-accordion__body, #second-accordion .deposit-accordion__body, #third-accordion .deposit-accordion__body, #fourth-accordion .deposit-accordion__body, #fifth-accordion .deposit-accordion__body, #sixth-accordion .deposit-accordion__body {
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #262626;
+    border-radius: 15px;
+    border-bottom: none !important;
+    text-align: center;
+    position: relative; }
+    #first-accordion .deposit-accordion__body ul, #second-accordion .deposit-accordion__body ul, #third-accordion .deposit-accordion__body ul, #fourth-accordion .deposit-accordion__body ul, #fifth-accordion .deposit-accordion__body ul, #sixth-accordion .deposit-accordion__body ul {
+      text-align: center; }
+      #first-accordion .deposit-accordion__body ul li:not(:last-child), #second-accordion .deposit-accordion__body ul li:not(:last-child), #third-accordion .deposit-accordion__body ul li:not(:last-child), #fourth-accordion .deposit-accordion__body ul li:not(:last-child), #fifth-accordion .deposit-accordion__body ul li:not(:last-child), #sixth-accordion .deposit-accordion__body ul li:not(:last-child) {
+        padding-bottom: 30px; }
+      #first-accordion .deposit-accordion__body ul li a, #second-accordion .deposit-accordion__body ul li a, #third-accordion .deposit-accordion__body ul li a, #fourth-accordion .deposit-accordion__body ul li a, #fifth-accordion .deposit-accordion__body ul li a, #sixth-accordion .deposit-accordion__body ul li a {
+        font-size: 30px; }
+        @media (max-width: 768px) {
+          #first-accordion .deposit-accordion__body ul li a, #second-accordion .deposit-accordion__body ul li a, #third-accordion .deposit-accordion__body ul li a, #fourth-accordion .deposit-accordion__body ul li a, #fifth-accordion .deposit-accordion__body ul li a, #sixth-accordion .deposit-accordion__body ul li a {
+            font-size: 23px; } }
+        @media (max-width: 480px) {
+          #first-accordion .deposit-accordion__body ul li a, #second-accordion .deposit-accordion__body ul li a, #third-accordion .deposit-accordion__body ul li a, #fourth-accordion .deposit-accordion__body ul li a, #fifth-accordion .deposit-accordion__body ul li a, #sixth-accordion .deposit-accordion__body ul li a {
+            font-size: 13px; } }
+
+.outer {
+  width: 55px;
+  height: 55px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  top: 20px;
+  left: 20px; }
+  @media (max-width: 768px) {
+    .outer {
+      width: 39px;
+      height: 39px;
+      top: 28px;
+      left: 8px; } }
+  .outer .inner {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 14px;
+    top: 14px; }
+    @media (max-width: 768px) {
+      .outer .inner {
+        width: 19px;
+        height: 19px;
+        top: 9px;
+        left: 9px; } }
+
+.deposit-circle__item {
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 30px;
+  left: 35px; }
+  @media (max-width: 768px) {
+    .deposit-circle__item {
+      height: 22px;
+      width: 22px;
+      top: 35px;
+      left: 20px; } }
+
+.dropdown-box-show {
+  margin-bottom: 20px; }
+
+.dropdown-btn-show {
+  display: block;
+  height: 90px;
+  padding: 0 !important;
+  line-height: 90px !important;
+  font-size: 30px !important;
+  border-radius: 10px !important;
+  background: #262626 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+  border: none !important; }
+  @media (max-width: 768px) {
+    .dropdown-btn-show {
+      font-size: 23px !important; } }
+
+.fundtransfer-down {
+  z-index: 3 !important;
+  padding: 0 !important;
+  background: #262626 !important;
+  border-radius: 10px;
+  margin-top: 20px; }
+  .fundtransfer-down a {
+    color: #fff; }
+
+.fundtransfer__item {
+  height: 90px;
+  line-height: 90px;
+  font-size: 30px;
+  padding: 0; }
+  @media (max-width: 768px) {
+    .fundtransfer__item {
+      font-size: 21px; } }
+
+.casino-deposit-btn {
+  color: #fff;
+  margin-bottom: 20px;
+  border: none !important;
+  background: #262626 !important;
+  border-radius: 15px; }
+  .casino-deposit-btn p {
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 30px; }
+    @media (max-width: 768px) {
+      .casino-deposit-btn p {
+        font-size: 23px; } }
+    @media (max-width: 480px) {
+      .casino-deposit-btn p {
+        font-size: 13px; } }
+
+.casino-deposit-payment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .casino-deposit-payment .deposit-payment-btn {
+    width: 73px;
+    height: 73px;
+    border: 3px solid #b7b7b7;
+    border-radius: 25px;
+    cursor: pointer; }
+    @media (max-width: 1024px) {
+      .casino-deposit-payment .deposit-payment-btn {
+        width: 69px;
+        height: 69px; } }
+    @media (max-width: 768px) {
+      .casino-deposit-payment .deposit-payment-btn {
+        width: 51px;
+        height: 51px;
+        border-radius: 15px; } }
+    @media (max-width: 480px) {
+      .casino-deposit-payment .deposit-payment-btn {
+        width: 27px;
+        height: 27px;
+        border-radius: 10px; } }
+    @media (max-width: 480px) {
+      .casino-deposit-payment .deposit-payment-btn {
+        width: 25px;
+        height: 25px; } }
+    @media (max-width: 360px) {
+      .casino-deposit-payment .deposit-payment-btn {
+        width: 24px;
+        height: 24px;
+        border-radius: 10px; } }
+  @media (max-width: 1024px) {
+    .casino-deposit-payment img {
+      width: 846px;
+      height: 203px; } }
+  @media (max-width: 768px) {
+    .casino-deposit-payment img {
+      width: 624px;
+      height: 153px; } }
+  @media (max-width: 480px) {
+    .casino-deposit-payment img {
+      width: 343px;
+      height: 84px; } }
+  @media (max-width: 375px) {
+    .casino-deposit-payment img {
+      width: 310px;
+      height: 75px; } }
+  @media (max-width: 360px) {
+    .casino-deposit-payment img {
+      width: 298px;
+      height: 71px; } }
+
+.casino-deposit-box {
+  margin: 0 40px;
+  /*padding-bottom: 420px;
+  @media (max-width: 1024px) {
+      padding-bottom: 400px;
+  }
+  @media (max-width: 768px) {
+      padding-bottom: 300px;
+  }*/ }
+  @media (max-width: 480px) {
+    .casino-deposit-box {
+      margin: 0 20px;
+      /*padding-bottom:200px*/ } }
+  @media (max-width: 375px) {
+    .casino-deposit-box {
+      margin: 0 15px; } }
+
+#msform {
+  text-align: center;
+  position: relative;
+  margin-top: 20px; }
+
+#msform fieldset .form-card {
+  background: #000;
+  border: 0 none;
+  border-radius: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  padding: 0 20px;
+  border-radius: 10px; }
+  @media (max-width: 768px) {
+    #msform fieldset .form-card {
+      padding: 0; } }
+
+#msform fieldset {
+  background: transparent;
+  border: 0 none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  position: relative; }
+
+#msform fieldset:not(:first-of-type) {
+  display: none; }
+
+#msform fieldset .form-card {
+  text-align: left;
+  color: #9E9E9E; }
+
+#msform input,
+#msform textarea {
+  padding: 0px 8px 4px 8px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+  margin-bottom: 25px;
+  margin-top: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: #363636; }
+
+#msform input.deposit-choose-file {
+  background: transparent; }
+
+#msform input:focus,
+#msform textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none;
+  font-weight: bold;
+  border-bottom: 2px solid skyblue;
+  outline-width: 0; }
+
+#msform .action-button {
+  width: 300px;
+  height: 96px;
+  background: #f5e091;
+  font-size: 45px;
+  color: #000;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  display: block;
+  line-height: 96px;
+  font-weight: 500;
+  border-radius: 50px;
+  margin-top: 30px;
+  position: absolute;
+  right: 0; }
+  @media (max-width: 1024px) {
+    #msform .action-button {
+      width: 250px;
+      height: 91px;
+      font-size: 42px; } }
+  @media (max-width: 768px) {
+    #msform .action-button {
+      width: 200px;
+      height: 68px;
+      font-size: 32px;
+      line-height: 68px; } }
+  @media (max-width: 480px) {
+    #msform .action-button {
+      width: 110px;
+      height: 37px;
+      font-size: 18px;
+      line-height: 37px; } }
+  @media (max-width: 480px) {
+    #msform .action-button {
+      width: 100px;
+      height: 37px;
+      font-size: 18px;
+      line-height: 37px; } }
+
+#msform .action-button-next:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/arrow-black-right.png) no-repeat center center;
+  background-size: contain;
+  right: 20px;
+  top: 38px; }
+  @media (max-width: 1024px) {
+    #msform .action-button-next:after {
+      right: 10px;
+      top: 38px; } }
+  @media (max-width: 768px) {
+    #msform .action-button-next:after {
+      right: 10px;
+      top: 25px; } }
+  @media (max-width: 480px) {
+    #msform .action-button-next:after {
+      right: 1px;
+      top: 8px;
+      width: 8px; } }
+  @media (max-width: 360px) {
+    #msform .action-button-next:after {
+      right: 1px;
+      top: 8px;
+      width: 7px; } }
+
+#msform .action-button-previous {
+  left: 0; }
+  #msform .action-button-previous:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/arrow-black-left.png) no-repeat center center;
+    background-size: contain;
+    left: 20px;
+    top: 38px; }
+    @media (max-width: 768px) {
+      #msform .action-button-previous:before {
+        left: 10px;
+        top: 25px; } }
+    @media (max-width: 480px) {
+      #msform .action-button-previous:before {
+        width: 8px;
+        left: 1px;
+        top: 8px; } }
+    @media (max-width: 360px) {
+      #msform .action-button-previous:before {
+        width: 8px;
+        left: 1px;
+        top: 8px; } }
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #616161; }
+
+.casino-deposit-signin input {
+  padding: 20px 0;
+  margin: 0 0 20px 0; }
+
+select.list-dt {
+  border: none;
+  outline: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 2px 5px 3px 5px;
+  margin: 2px; }
+
+select.list-dt:focus {
+  border-bottom: 2px solid skyblue; }
+
+.card {
+  z-index: 0;
+  border: none;
+  border-radius: 0.5rem;
+  position: relative;
+  background: transparent !important; }
+
+.fs-title {
+  font-size: 25px;
+  color: #2C3E50;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left; }
+
+#progressbar {
+  overflow: hidden;
+  color: lightgrey; }
+
+#progressbar .active {
+  color: #f5e091;
+  font-size: 33px; }
+  @media (max-width: 768px) {
+    #progressbar .active {
+      font-size: 23px; } }
+  @media (max-width: 414px) {
+    #progressbar .active {
+      font-size: 13px; } }
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 33px;
+  width: 25%;
+  float: left;
+  position: relative; }
+  @media (max-width: 768px) {
+    #progressbar li {
+      font-size: 23px; } }
+  @media (max-width: 414px) {
+    #progressbar li {
+      font-size: 13px; } }
+
+#progressbar #account:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f111"; }
+
+#progressbar #personal:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f111"; }
+
+#progressbar #payment:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f111"; }
+
+#progressbar #confirm:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f111"; }
+
+#progressbar li:before {
+  width: 91px;
+  height: 91px;
+  line-height: 91px;
+  display: block;
+  font-size: 60px;
+  color: #f5e091;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 auto; }
+  @media (max-width: 1024px) {
+    #progressbar li:before {
+      width: 86px;
+      height: 86px;
+      line-height: 86px;
+      font-size: 56px;
+      color: #f5e091;
+      background: #fff;
+      border-radius: 50%;
+      margin: 0 auto; } }
+  @media (max-width: 768px) {
+    #progressbar li:before {
+      width: 64px;
+      height: 64px;
+      line-height: 64px;
+      font-size: 42px; } }
+  @media (max-width: 414px) {
+    #progressbar li:before {
+      width: 34px;
+      height: 34px;
+      line-height: 34px;
+      font-size: 23px; } }
+  @media (max-width: 375px) {
+    #progressbar li:before {
+      width: 31px;
+      height: 31px;
+      line-height: 31px;
+      font-size: 20px; } }
+
+#progressbar li:after {
+  content: '';
+  width: 100%;
+  height: 15px;
+  background: lightgray;
+  position: absolute;
+  left: 0;
+  top: 38px;
+  z-index: -1; }
+  @media (max-width: 768px) {
+    #progressbar li:after {
+      top: 25px; } }
+  @media (max-width: 414px) {
+    #progressbar li:after {
+      height: 7px;
+      top: 15px; } }
+  @media (max-width: 375px) {
+    #progressbar li:after {
+      height: 5px;
+      top: 12px; } }
+
+#progressbar li.casino-deposit-item-first::after {
+  content: '';
+  width: 50%;
+  position: absolute;
+  right: 0;
+  left: inherit; }
+
+#progressbar li.casino-deposit-item-last::after {
+  content: '';
+  width: 50%;
+  position: absolute; }
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #d72e2e; }
+
+.radio-group {
+  position: relative;
+  margin-bottom: 25px; }
+
+.radio {
+  display: inline-block;
+  width: 204;
+  height: 104;
+  border-radius: 0;
+  background: lightblue;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 8px 2px; }
+
+.radio:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3); }
+
+.radio.selected {
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1); }
+
+.fit-image {
+  width: 100%;
+  object-fit: cover; }
+
+.fieldset-deposit-container {
+  margin-top: 55px; }
+  .fieldset-deposit-container .fieldset-deposit-box .bank-note {
+    height: 50px;
+    font-size: 18px; }
+  .fieldset-deposit-container .effect-1 {
+    margin-bottom: 25px;
+    border-radius: 15px !important; }
+    @media (max-width: 414px) {
+      .fieldset-deposit-container .effect-1 {
+        margin-bottom: 5px !important; } }
+
+#msform .action-button-send {
+  background: #f40808;
+  color: #ffff;
+  left: 33%; }
+  @media (max-width: 480px) {
+    #msform .action-button-send {
+      left: 33%; } }
+
+.deposit-send-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px; }
+
+/* ---end deposit tab-- */
+/* ---start live dealer-- */
+.live-dealer-container {
+  padding: 45px; }
+  .live-dealer-container .live-dealer-item {
+    height: 180px;
+    margin-bottom: 60px; }
+  @media (max-width: 812px) {
+    .live-dealer-container {
+      padding: 35px; } }
+  @media (max-width: 414px) {
+    .live-dealer-container {
+      padding: 20px; } }
+  @media (max-width: 375px) {
+    .live-dealer-container {
+      padding: 15px; } }
+  .live-dealer-container .live-dealer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    height: 180px;
+    padding: 0 25px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: #fff;
+    border: 2px solid #555555; }
+    .live-dealer-container .live-dealer-item p {
+      font-size: 40px; }
+      @media (max-width: 1024px) {
+        .live-dealer-container .live-dealer-item p {
+          font-size: 32px; } }
+      @media (max-width: 768px) {
+        .live-dealer-container .live-dealer-item p {
+          font-size: 28px; } }
+      @media (max-width: 414px) {
+        .live-dealer-container .live-dealer-item p {
+          font-size: 15px; } }
+      @media (max-width: 375px) {
+        .live-dealer-container .live-dealer-item p {
+          font-size: 13px; } }
+    .live-dealer-container .live-dealer-item span {
+      border: 1px solid #ff0000;
+      color: #ff0000;
+      font-size: 13px;
+      border-radius: 5px;
+      position: absolute;
+      right: 15px;
+      top: 10px; }
+      @media (max-width: 414px) {
+        .live-dealer-container .live-dealer-item span {
+          font-size: 8px;
+          right: 5px;
+          top: 5px; } }
+    @media (max-width: 1024px) {
+      .live-dealer-container .live-dealer-item {
+        height: 170px; } }
+    @media (max-width: 812px) {
+      .live-dealer-container .live-dealer-item {
+        height: 135px;
+        margin-bottom: 35px; } }
+    @media (max-width: 768px) {
+      .live-dealer-container .live-dealer-item {
+        height: 130px;
+        margin-bottom: 40px; } }
+    @media (max-width: 414px) {
+      .live-dealer-container .live-dealer-item {
+        height: 70px;
+        margin-bottom: 25px; } }
+    @media (max-width: 375px) {
+      .live-dealer-container .live-dealer-item {
+        height: 65px;
+        margin-bottom: 15px; } }
+    @media (max-width: 360px) {
+      .live-dealer-container .live-dealer-item {
+        height: 60px; } }
+    .live-dealer-container .live-dealer-item:hover {
+      color: #f5e091; }
+    .live-dealer-container .live-dealer-item .live-dealer-box-1 {
+      position: absolute;
+      left: 25px;
+      width: 128px;
+      height: auto; }
+      @media (max-width: 1024px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-1 {
+          width: 122px;
+          height: auto; } }
+      @media (max-width: 812px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-1 {
+          width: 98px;
+          height: auto; } }
+      @media (max-width: 768px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-1 {
+          width: 92px;
+          height: auto;
+          left: 20px; } }
+      @media (max-width: 414px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-1 {
+          width: 51px;
+          height: auto;
+          left: 15px; } }
+      @media (max-width: 375px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-1 {
+          width: 45px;
+          height: auto;
+          left: 10px; } }
+      @media (max-width: 360px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-1 {
+          width: 43px;
+          height: auto; } }
+    .live-dealer-container .live-dealer-item .live-dealer-box-2 {
+      position: absolute;
+      left: 25px;
+      width: 167px;
+      height: auto; }
+      @media (max-width: 1024px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-2 {
+          width: 160px;
+          height: auto; } }
+      @media (max-width: 812px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-2 {
+          width: 126px;
+          height: auto; } }
+      @media (max-width: 768px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-2 {
+          width: 119px;
+          height: auto;
+          left: 20px; } }
+      @media (max-width: 414px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-2 {
+          width: 65px;
+          height: auto;
+          left: 15px; } }
+      @media (max-width: 375px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-2 {
+          width: 59px;
+          height: auto;
+          left: 10px; } }
+      @media (max-width: 360px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-2 {
+          width: 56px;
+          height: auto; } }
+    .live-dealer-container .live-dealer-item .live-dealer-box-3 {
+      position: absolute;
+      left: 25px;
+      width: 137px;
+      height: auto; }
+      @media (max-width: 1024px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-3 {
+          width: 131px;
+          height: auto; } }
+      @media (max-width: 812px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-3 {
+          width: 104px;
+          height: auto; } }
+      @media (max-width: 768px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-3 {
+          width: 98px;
+          height: auto;
+          left: 20px; } }
+      @media (max-width: 414px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-3 {
+          width: 54px;
+          height: auto;
+          left: 15px; } }
+      @media (max-width: 375px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-3 {
+          width: 49px;
+          height: auto;
+          left: 10px; } }
+      @media (max-width: 360px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-3 {
+          width: 47px;
+          height: auto; } }
+    .live-dealer-container .live-dealer-item .live-dealer-box-4 {
+      position: absolute;
+      left: 25px;
+      width: 157px;
+      height: auto; }
+      @media (max-width: 1024px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-4 {
+          width: 150px;
+          height: auto; } }
+      @media (max-width: 812px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-4 {
+          width: 119px;
+          height: auto; } }
+      @media (max-width: 768px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-4 {
+          width: 113px;
+          height: auto;
+          left: 20px; } }
+      @media (max-width: 414px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-4 {
+          width: 61px;
+          height: auto;
+          left: 15px; } }
+      @media (max-width: 375px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-4 {
+          width: 56px;
+          height: auto;
+          left: 10px; } }
+      @media (max-width: 360px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-4 {
+          width: 53px;
+          height: auto; } }
+    .live-dealer-container .live-dealer-item .live-dealer-box-5 {
+      position: absolute;
+      left: 25px;
+      width: 227px;
+      height: auto; }
+      @media (max-width: 1024px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-5 {
+          width: 217px;
+          height: auto; } }
+      @media (max-width: 812px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-5 {
+          width: 170px;
+          height: auto; } }
+      @media (max-width: 768px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-5 {
+          width: 162px;
+          height: auto;
+          left: 20px; } }
+      @media (max-width: 414px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-5 {
+          width: 87px;
+          height: auto;
+          left: 15px; } }
+      @media (max-width: 375px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-5 {
+          width: 79px;
+          height: auto;
+          left: 10px; } }
+      @media (max-width: 360px) {
+        .live-dealer-container .live-dealer-item .live-dealer-box-5 {
+          width: 76px;
+          height: auto; } }
+
+.live-dealer-item {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  padding: 8px 20px;
+  text-align: center;
+  border: 1px solid #212529e0;
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+  z-index: 0; }
+
+.live-dealer-item i {
+  padding-right: 8px; }
+
+.live-dealer-item::before {
+  position: absolute;
+  content: "";
+  background: #000;
+  transition-duration: 0.3s;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  bottom: auto;
+  left: auto;
+  width: 50%;
+  height: 100%;
+  opacity: 1; }
+
+.live-dealer-item:hover::before {
+  width: 0px;
+  height: 100%;
+  opacity: 1; }
+
+.live-dealer-item {
+  color: black;
+  transition: color 0.3s ease 0s, background 0s ease 0.3s;
+  background: #1c1c1c; }
+
+.live-dealer-item:hover {
+  background: #2d2d2d;
+  color: white;
+  transition: color 0.3s ease 0s, background 0s ease 0s; }
+
+.live-dealer-item::after {
+  position: absolute;
+  content: "";
+  background: #000;
+  transition-duration: 0.3s;
+  z-index: -1;
+  top: 0px;
+  right: auto;
+  bottom: auto;
+  left: 0px;
+  width: 50%;
+  height: 100%;
+  opacity: 1; }
+
+.live-dealer-item:hover::after {
+  width: 0px; }
+
+/* ---end live dealer-- */
+
+/*# sourceMappingURL=style.css.map */
